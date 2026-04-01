@@ -32,7 +32,7 @@
       "title": "A Highland Song",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "British Game",
           "result": "Nominee",
@@ -71,28 +71,28 @@
       "title": "Animal Well",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Audio Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Debut Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Design",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "New Intellectual Property",
           "result": "Nominee",
@@ -144,31 +144,17 @@
       "title": "Astro Bot",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
-          "category": "Artistic Achievement",
-          "result": "Nominee",
-          "talent": []
-        },
-        {
-          "event": "BAFTA",
-          "year": 2025,
-          "category": "Music",
-          "result": "Nominee",
-          "talent": []
-        },
-        {
-          "event": "BAFTA",
-          "year": 2025,
-          "category": "Technical Achievement",
-          "result": "Nominee",
+          "category": "Animation",
+          "result": "Winner",
           "talent": []
         },
         {
           "event": "BAFTA Game Awards",
           "year": 2025,
-          "category": "Animation",
-          "result": "Winner",
+          "category": "Artistic Achievement",
+          "result": "Nominee",
           "talent": []
         },
         {
@@ -197,6 +183,20 @@
           "year": 2025,
           "category": "Game Design",
           "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "BAFTA Game Awards",
+          "year": 2025,
+          "category": "Music",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "BAFTA Game Awards",
+          "year": 2025,
+          "category": "Technical Achievement",
+          "result": "Nominee",
           "talent": []
         }
       ]
@@ -232,23 +232,9 @@
       "title": "Balatro",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Best Game",
-          "result": "Nominee",
-          "talent": []
-        },
-        {
-          "event": "BAFTA",
-          "year": 2025,
-          "category": "Game Design",
-          "result": "Nominee",
-          "talent": []
-        },
-        {
-          "event": "BAFTA",
-          "year": 2025,
-          "category": "New Intellectual Property",
           "result": "Nominee",
           "talent": []
         },
@@ -257,6 +243,20 @@
           "year": 2025,
           "category": "Debut Game",
           "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "BAFTA Game Awards",
+          "year": 2025,
+          "category": "Game Design",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "BAFTA Game Awards",
+          "year": 2025,
+          "category": "New Intellectual Property",
+          "result": "Nominee",
           "talent": []
         }
       ]
@@ -319,42 +319,42 @@
       "title": "Black Myth: Wukong",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Artistic Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Best Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Music",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Narrative",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "New Intellectual Property",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Technical Achievement",
           "result": "Nominee",
@@ -387,7 +387,7 @@
       "title": "Botany Manor",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Beyond Entertainment",
           "result": "Nominee",
@@ -400,21 +400,21 @@
       "title": "Call of Duty: Black Ops 6",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Animation",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Multiplayer",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Leading Role",
           "result": "Nominee",
@@ -427,7 +427,7 @@
           ]
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Technical Achievement",
           "result": "Nominee",
@@ -453,7 +453,7 @@
       "title": "Cat Quest III",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Family",
           "result": "Nominee",
@@ -705,7 +705,7 @@
       "title": "Diablo IV",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Evolving Game",
           "result": "Nominee",
@@ -784,7 +784,7 @@
       "title": "Dragon Age: The Veilguard",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Narrative",
           "result": "Nominee",
@@ -869,14 +869,14 @@
       "title": "Final Fantasy VII Rebirth",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Music",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Narrative",
           "result": "Nominee",
@@ -889,7 +889,7 @@
       "title": "Final Fantasy XIV",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Evolving Game",
           "result": "Nominee",
@@ -1083,7 +1083,7 @@
       "title": "Harold Halibut",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Artistic Achievement",
           "result": "Nominee",
@@ -1096,21 +1096,21 @@
       "title": "Helldivers 2",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Audio Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Best Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Design",
           "result": "Nominee",
@@ -1224,7 +1224,7 @@
       "title": "Isabella Inchbald as Indika in Indika",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Leading Role",
           "result": "Nominee",
@@ -1256,7 +1256,7 @@
       "title": "Kind Words 2",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Beyond Entertainment",
           "result": "Nominee",
@@ -1309,28 +1309,28 @@
       "title": "Lego Horizon Adventures",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Animation",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "British Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Family",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Multiplayer",
           "result": "Nominee",
@@ -1369,7 +1369,7 @@
       "title": "Little Kitty, Big City",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Family",
           "result": "Nominee",
@@ -1395,7 +1395,7 @@
       "title": "Luke Roberts as James Sunderland in Silent Hill 2",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Leading Role",
           "result": "Nominee",
@@ -1473,17 +1473,17 @@
       "title": "Metaphor: ReFantazio",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
-          "category": "New Intellectual Property",
-          "result": "Nominee",
+          "category": "Narrative",
+          "result": "Winner",
           "talent": []
         },
         {
           "event": "BAFTA Game Awards",
           "year": 2025,
-          "category": "Narrative",
-          "result": "Winner",
+          "category": "New Intellectual Property",
+          "result": "Nominee",
           "talent": []
         }
       ]
@@ -1558,7 +1558,7 @@
       "title": "No Man's Sky",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Evolving Game",
           "result": "Nominee",
@@ -1585,7 +1585,7 @@
       "title": "Pacific Drive",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Debut Game",
           "result": "Nominee",
@@ -1598,7 +1598,7 @@
       "title": "Paper Trail",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "British Game",
           "result": "Nominee",
@@ -1663,7 +1663,7 @@
       "title": "Sea of Thieves",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Evolving Game",
           "result": "Nominee",
@@ -1676,56 +1676,56 @@
       "title": "Senua's Saga: Hellblade II",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Animation",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Artistic Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Audio Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "British Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Beyond Entertainment",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Music",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Narrative",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Leading Role",
           "result": "Nominee",
@@ -1738,7 +1738,7 @@
           ]
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Supporting Role",
           "result": "Nominee",
@@ -1756,7 +1756,7 @@
           ]
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Supporting Role",
           "result": "Nominee",
@@ -1928,21 +1928,21 @@
       "title": "Star Wars Outlaws",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Audio Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Music",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Leading Role",
           "result": "Nominee",
@@ -1961,52 +1961,39 @@
       "title": "Still Wakes the Deep",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Artistic Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Audio Achievement",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "British Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Narrative",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "New Intellectual Property",
           "result": "Winner",
           "talent": []
-        },
-        {
-          "event": "BAFTA",
-          "year": 2025,
-          "category": "Performer in a Supporting Role",
-          "result": "Nominee",
-          "talent": [
-            {
-              "name": "Michael Abubakar",
-              "credit": "Brodie (voice)",
-              "imdb_url": "https://www.imdb.com/name/nm9161814/"
-            }
-          ]
         },
         {
           "event": "BAFTA Game Awards",
@@ -2033,6 +2020,19 @@
               "imdb_url": "https://www.imdb.com/name/nm0241848/"
             }
           ]
+        },
+        {
+          "event": "BAFTA Game Awards",
+          "year": 2025,
+          "category": "Performer in a Supporting Role",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Michael Abubakar",
+              "credit": "Brodie (voice)",
+              "imdb_url": "https://www.imdb.com/name/nm9161814/"
+            }
+          ]
         }
       ]
     },
@@ -2041,14 +2041,14 @@
       "title": "Super Mario Party Jamboree",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Family",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Multiplayer",
           "result": "Nominee",
@@ -2061,7 +2061,7 @@
       "title": "Tactical Breach Wizards",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Design",
           "result": "Nominee",
@@ -2074,7 +2074,7 @@
       "title": "Tales of Kenzera: Zau",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Debut Game",
           "result": "Nominee",
@@ -2094,7 +2094,7 @@
       "title": "Tekken 8",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Multiplayer",
           "result": "Nominee",
@@ -2120,7 +2120,7 @@
       "title": "Tetris Forever",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Beyond Entertainment",
           "result": "Nominee",
@@ -2133,35 +2133,42 @@
       "title": "Thank Goodness You're Here!",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Animation",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Best Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
+          "year": 2025,
+          "category": "British Game",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Debut Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "New Intellectual Property",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Supporting Role",
           "result": "Nominee",
@@ -2174,7 +2181,7 @@
           ]
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Performer in a Supporting Role",
           "result": "Nominee",
@@ -2185,13 +2192,6 @@
               "imdb_url": "https://www.imdb.com/name/nm1546196/"
             }
           ]
-        },
-        {
-          "event": "BAFTA Game Awards",
-          "year": 2025,
-          "category": "British Game",
-          "result": "Winner",
-          "talent": []
         }
       ]
     },
@@ -2213,14 +2213,14 @@
       "title": "The Legend of Zelda: Echoes of Wisdom",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Best Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Design",
           "result": "Nominee",
@@ -2259,14 +2259,14 @@
       "title": "The Plucky Squire",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Debut Game",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Family",
           "result": "Nominee",
@@ -2292,7 +2292,7 @@
       "title": "Tiny Glade",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Technical Achievement",
           "result": "Nominee",
@@ -2357,7 +2357,7 @@
       "title": "Vampire Therapist",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Game Beyond Entertainment",
           "result": "Nominee",
@@ -2396,21 +2396,21 @@
       "title": "Warhammer 40,000: Space Marine 2",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Animation",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Multiplayer",
           "result": "Nominee",
           "talent": []
         },
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Technical Achievement",
           "result": "Nominee",
@@ -2423,7 +2423,7 @@
       "title": "World of Warcraft",
       "nominations": [
         {
-          "event": "BAFTA",
+          "event": "BAFTA Game Awards",
           "year": 2025,
           "category": "Evolving Game",
           "result": "Nominee",
