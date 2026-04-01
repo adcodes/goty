@@ -1,0 +1,1915 @@
+{
+  "last_updated": "2026-04-01",
+  "games": {
+    "115": {
+      "id": 115,
+      "title": "League of Legends",
+      "release_date": "2009-10-27",
+      "developers": [
+        "Riot Games"
+      ],
+      "publishers": [
+        "Riot Games",
+        "Tencent Holdings",
+        "GOA Games Services Ltd."
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Strategy",
+        "MOBA"
+      ],
+      "summary": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. Two teams of powerful champions, each with a unique design and playstyle, battle head-to-head across multiple battlefields and game modes. With an ever-expanding roster of champions, frequent updates and a thriving tournament scene, League of Legends offers endless replayability for players of every skill level."
+    },
+    "123": {
+      "id": 123,
+      "title": "World of Warcraft",
+      "release_date": "2004-11-23",
+      "developers": [
+        "Blizzard Entertainment"
+      ],
+      "publishers": [
+        "Blizzard Entertainment"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "World of Warcraft is a massively multiplayer online roleplaying game (MMORPG) set in the Warcraft universe. Players assume the roles of Warcraft heroes as they explore, adventure, and quest across a vast world. Being \"Massively Multiplayer,\" World of Warcraft allows thousands of players to interact within the same world. Whether adventuring together or fighting against each other in epic battles, players will form friendships, forge alliances, and compete with enemies for power and glory."
+    },
+    "386": {
+      "id": 386,
+      "title": "Final Fantasy XIV Online",
+      "release_date": "2013-08-27",
+      "developers": [
+        "Square Enix Product Development Division 3",
+        "Square Enix Business Division 5",
+        "Square Enix Creative Business Unit III",
+        "Square Enix Creative Studio III"
+      ],
+      "publishers": [
+        "Square Enix"
+      ],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "summary": "Take part in an epic and ever-changing Final Fantasy as you adventure and explore with friends from around the world. Final Fantasy XIV Online is the 2013 relaunch of the massively multiplayer online role-playing game that takes the wonder of the FF legacy and expands it, allowing you to explore the realm of Eorzea like never before in a Final Fantasy game.\n\nForge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. Adventure alone or join up with friends to undertake epic quests, battle familiar Final Fantasy monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting! Embark of the adventure of a lifetime to help reforge the fate of Eorzea!"
+    },
+    "1905": {
+      "id": 1905,
+      "title": "Fortnite",
+      "release_date": "2020-06-29",
+      "developers": [
+        "Epic Games"
+      ],
+      "publishers": [
+        "Epic Games"
+      ],
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)",
+        "Simulator",
+        "Strategy",
+        "Adventure"
+      ],
+      "summary": "Fortnite is a free-to-play online game where you and your friends fight to be the last one standing in Battle Royale, join forces to make your own Creative games, or catch a live show at Party Royale."
+    },
+    "2963": {
+      "id": 2963,
+      "title": "Dota 2",
+      "release_date": "2013-07-09",
+      "developers": [
+        "Valve"
+      ],
+      "publishers": [
+        "Valve"
+      ],
+      "genres": [
+        "Strategy",
+        "MOBA"
+      ],
+      "summary": "Dota 2 is a multiplayer online battle arena video game and the stand-alone sequel to the Defense of the Ancients (DotA) mod. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own."
+    },
+    "3225": {
+      "id": 3225,
+      "title": "No Man's Sky",
+      "release_date": "2016-08-09",
+      "developers": [
+        "Hello Games"
+      ],
+      "publishers": [
+        "505 Games",
+        "Sony Interactive Entertainment",
+        "Hello Games"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Simulator",
+        "Adventure",
+        "Indie",
+        "Arcade"
+      ],
+      "summary": "Inspired by the adventure and imagination that we love from classic science-fiction, No Man's Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, and constant danger and action.\n\nIn No Man's Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, you'll discover places and creatures that no other players have seen before - and perhaps never will again."
+    },
+    "11137": {
+      "id": 11137,
+      "title": "Sea of Thieves",
+      "release_date": "2018-03-20",
+      "developers": [
+        "Rare"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Simulator",
+        "Adventure"
+      ],
+      "summary": "Sea of Thieves offers the essential pirate experience, from sailing and fighting to exploring and looting – everything you need to live the pirate life and become a legend in your own right. With no set roles, you have complete freedom to approach the world, and other players, however you choose."
+    },
+    "26602": {
+      "id": 26602,
+      "title": "Metaphor: ReFantazio",
+      "release_date": "2024-10-11",
+      "developers": [
+        "Studio Zero"
+      ],
+      "publishers": [
+        "Atlus",
+        "Sega"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Turn-based strategy (TBS)",
+        "Adventure"
+      ],
+      "summary": "From the creative minds of the Persona series – Metaphor: ReFantazio marks ATLUS’ first ever, full-scale fantasy RPG, brought to you by director Katsura Hashino, character designer Shigenori Soejima, and composer Shoji Meguro.\n\nWrite your destiny and rise above fear as you step into a fantasy world unlike anything you’ve seen before. Fraught with unsettling mystery, the kingdom stands on a precipice. Now, you must embark on a journey, overcoming obstacles and forging bonds with friends."
+    },
+    "30208": {
+      "id": 30208,
+      "title": "Dragon Age: The Veilguard",
+      "release_date": "2024-10-31",
+      "developers": [
+        "BioWare"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Strategy",
+        "Adventure"
+      ],
+      "summary": "Select from different races and combat classes, customize your appearance, choose your character’s backstory and begin your journey as Rook, Dragon Age’s newest hero.\n\nSelect from three classes (Warrior, Mage, and Rogue), each with two distinct weapon types and unique abilities you can select between mid-combat. Experience new strategic depth as you combine fast-paced attacks, parries, and dodges with the companion ability wheel to exploit enemy weaknesses and seize victory with devastating combat combos.\n\nThe Veilguard contains several different factions, any of these could prove to be important ally during the story. Your faction choice will influence Rook's backstory, conversation options and more."
+    },
+    "47157": {
+      "id": 47157,
+      "title": "Harold Halibut",
+      "release_date": "2024-04-16",
+      "developers": [
+        "Slow Bros."
+      ],
+      "publishers": [
+        "Slow Bros."
+      ],
+      "genres": [
+        "Simulator",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Dive into this nautic adventure as curiosity will guide you through a space ship wreck on an unknown planet made up of water. When one of the lead scientists still on board tries to unriddle the possibility of a relaunch young Janitor Harold is around to assist her. Join Harold in his clumsy undertakings to stir up the ark-like ship’s stale day-to-day life and find the secrets that lie behind its doors.\n\nUnderwater atmosphere, self-reflective humor and contemporary adventure mechanics make up the foundation of this game created entirely out of craft supplies."
+    },
+    "52189": {
+      "id": 52189,
+      "title": "Grand Theft Auto VI",
+      "release_date": "2026-11-19",
+      "developers": [
+        "Rockstar Games"
+      ],
+      "publishers": [
+        "Rockstar Games",
+        "Take-Two Interactive"
+      ],
+      "genres": [
+        "Shooter",
+        "Racing",
+        "Adventure"
+      ],
+      "summary": "Grand Theft Auto VI heads to the state of Leonida, home to the neon-soaked streets of Vice City and beyond in the biggest, most immersive evolution of the Grand Theft Auto series yet."
+    },
+    "79392": {
+      "id": 79392,
+      "title": "Mobile Legends: Bang Bang",
+      "release_date": "2016-07-14",
+      "developers": [
+        "Moonton"
+      ],
+      "publishers": [
+        "Moonton"
+      ],
+      "genres": [
+        "Strategy",
+        "Adventure",
+        "MOBA"
+      ],
+      "summary": "Join your friends in a brand new 5v5 MOBA showdown against real human opponents, Mobile Legends: Bang Bang! Choose your favorite heroes and build the perfect team with your comrades-in-arms! 10-second matchmaking, 10-minute battles. Laning, jungling, tower rushing, team battles, all the fun of PC MOBAs and action games in the palm of your hand! Feed your eSports spirit!\n\nMobile Legends: Bang Bang, outstanding MOBA game on mobile. Smash and outplay your enemies with teammates to achieve the final victory!\n\nYour phone thirsts for battle!"
+    },
+    "86286": {
+      "id": 86286,
+      "title": "Tactical Breach Wizards",
+      "release_date": "2024-08-22",
+      "developers": [
+        "Suspicious Developments"
+      ],
+      "publishers": [
+        "Suspicious Developments"
+      ],
+      "genres": [
+        "Strategy",
+        "Turn-based strategy (TBS)",
+        "Tactical",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Tactical Breach Wizards is a small-scale, turn-based tactics game where you play a team of wizards in modern-day tactical gear, breaching and clearing rooms full of armed hostiles by making clever use of interesting spells."
+    },
+    "97494": {
+      "id": 97494,
+      "title": "Umamusume: Pretty Derby",
+      "release_date": "2021-02-24",
+      "developers": [
+        "Cygames"
+      ],
+      "publishers": [
+        "DMM GAMES",
+        "Kakao Games",
+        "KOMOE Game",
+        "Bilibili Game",
+        "Cygames"
+      ],
+      "genres": [
+        "Music",
+        "Role-playing (RPG)",
+        "Simulator",
+        "Sport",
+        "Visual Novel"
+      ],
+      "summary": "Umamusume: Pretty Derby is ready to race! Scout featured trainees and supporters as you navigate the immersive sports life simulation through the game's in-depth training system and top-of-the-line 3D graphics!"
+    },
+    "115289": {
+      "id": 115289,
+      "title": "Hollow Knight: Silksong",
+      "release_date": "2025-09-04",
+      "developers": [
+        "Team Cherry"
+      ],
+      "publishers": [
+        "Team Cherry"
+      ],
+      "genres": [
+        "Platform",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Hollow Knight: Silksong is the epic sequel to Hollow Knight, the epic action-adventure of bugs and heroes. As the lethal hunter Hornet, journey to all-new lands, discover new powers, battle vast hordes of bugs and beasts and uncover ancient secrets tied to your nature and your past."
+    },
+    "119171": {
+      "id": 119171,
+      "title": "Baldur's Gate III",
+      "release_date": "2023-08-03",
+      "developers": [
+        "Larian Studios"
+      ],
+      "publishers": [
+        "Larian Studios"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Strategy",
+        "Turn-based strategy (TBS)"
+      ],
+      "summary": "An ancient evil has returned to Baldur's Gate, intent on devouring it from the inside out. The fate of Faerun lies in your hands. Alone, you may resist. But together, you can overcome."
+    },
+    "123255": {
+      "id": 123255,
+      "title": "Consume Me",
+      "release_date": "2025-09-24",
+      "developers": [
+        "Hexecutable"
+      ],
+      "publishers": [
+        "Hexecutable"
+      ],
+      "genres": [
+        "Puzzle",
+        "Role-playing (RPG)",
+        "Simulator",
+        "Strategy",
+        "Indie"
+      ],
+      "summary": "did you feel stupid, fat, lazy, and ugly in high school? well i did...but at least i made a life-simulation RPG about it!"
+    },
+    "125165": {
+      "id": 125165,
+      "title": "Diablo IV",
+      "release_date": "2023-06-06",
+      "developers": [
+        "Blizzard Entertainment"
+      ],
+      "publishers": [
+        "Blizzard Entertainment"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Hack and slash/Beat 'em up"
+      ],
+      "summary": "Endless demons to slaughter. Deep customization through Talents, Skill Points, Runes, and Legendary loot. Randomized dungeons contained in a dynamic open world. Survive and conquer darkness—or succumb to the shadows."
+    },
+    "126459": {
+      "id": 126459,
+      "title": "Valorant",
+      "release_date": "2020-06-02",
+      "developers": [
+        "Riot Games"
+      ],
+      "publishers": [
+        "Riot Games"
+      ],
+      "genres": [
+        "Shooter",
+        "Tactical"
+      ],
+      "summary": "Valorant is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork."
+    },
+    "126460": {
+      "id": 126460,
+      "title": "2XKO",
+      "release_date": "2026-01-20",
+      "developers": [
+        "Riot Games"
+      ],
+      "publishers": [
+        "Riot Games"
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "summary": "2XKO is a 2v2 fighting game featuring the iconic characters from Arcane and League of Legends."
+    },
+    "127342": {
+      "id": 127342,
+      "title": "Senua's Saga: Hellblade II",
+      "release_date": "2024-05-21",
+      "developers": [
+        "Ninja Theory"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "summary": "The sequel to the award winning Hellblade: Senua’s Sacrifice, Senua returns in a brutal journey of survival through the myth and torment of Viking Iceland. Intent on saving those who have fallen victim to the horrors of tyranny, Senua faces a battle of overcoming the darkness within and without."
+    },
+    "133236": {
+      "id": 133236,
+      "title": "Final Fantasy VII Rebirth",
+      "release_date": "2024-02-29",
+      "developers": [
+        "Square Enix Creative Business Unit I"
+      ],
+      "publishers": [
+        "Square Enix"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "Final Fantasy VII Rebirth is the second entry in the Final Fantasy VII remake project, which retells the story of the genre-redefining RPG across three distinct games. Iconic heroes Cloud, Barret, Tifa, Aerith and Red XIII have escaped from the dystopian city Midgar and are now in pursuit of Sephiroth, the vengeful swordsman from Cloud’s past who was thought to be dead."
+    },
+    "135994": {
+      "id": 135994,
+      "title": "Avowed",
+      "release_date": "2025-02-18",
+      "developers": [
+        "Obsidian Entertainment"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "Welcome to the Living Lands, a mysterious island filled with adventure and danger.\n\nSet in the fictional world of Eora that was first introduced to players in the Pillars of Eternity franchise, Avowed is a first-person fantasy action RPG from the award-winning team at Obsidian Entertainment.\n\nThe Living Lands is a place that feels foreign yet somewhat intrinsic to you as it feels the island itself is calling out to you for help. Explore an island home to many different environments and landscapes, each with their own unique ecosystem.\n\nMix and match swords, spells, guns, and shields to fight your way. Dig into your grimoire for spells to trap, freeze or burn enemies, bash them with your shield, or use range bows to attack from a distance.\n\nCompanions from a spread of species will fight alongside you, with their own unique set of abilities. From a former mercenary to an eccentric wizard, they will be part of your journey with your choices shaping them as you help them with their quests."
+    },
+    "136879": {
+      "id": 136879,
+      "title": "Black Myth: Wukong",
+      "release_date": "2024-08-20",
+      "developers": [
+        "Game Science"
+      ],
+      "publishers": [
+        "Game Science"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Hack and slash/Beat 'em up",
+        "Adventure"
+      ],
+      "summary": "Black Myth: Wukong is an action RPG rooted in Chinese mythology. The story is based on Journey to the West, one of the Four Great Classical Novels of Chinese literature. You shall set out as the Destined One to venture into the challenges and marvels ahead, to uncover the obscured truth beneath the veil of a glorious legend from the past."
+    },
+    "141114": {
+      "id": 141114,
+      "title": "007 First Light",
+      "release_date": "2026-05-27",
+      "developers": [
+        "IO Interactive"
+      ],
+      "publishers": [
+        "IO Interactive"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "summary": "Earn the Number. 007 First Light is a thrilling espionage action-adventure game from IO Interactive. Follow James Bond as a young, resourceful, and sometimes reckless recruit in MI6's training programme, and discover an origin story of the world’s most famous spy."
+    },
+    "142415": {
+      "id": 142415,
+      "title": "Indiana Jones and the Great Circle",
+      "release_date": "2024-12-09",
+      "developers": [
+        "MachineGames"
+      ],
+      "publishers": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Puzzle",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "Uncover one of history’s greatest mysteries in Indiana Jones and the Great Circle, a first-person, single-player adventure set between the events of Raiders of the Lost Ark and The Last Crusade. You’ll become the legendary archaeologist in this cinematic action-adventure game from MachineGames, the award-winning studio behind the recent Wolfenstein series, and executive produced by Hall of Fame game designer Todd Howard."
+    },
+    "142561": {
+      "id": 142561,
+      "title": "Paper Trail",
+      "release_date": "2024-02-14",
+      "developers": [
+        "Newfangled Games",
+        "Newfangled Games"
+      ],
+      "publishers": [
+        "Newfangled Games",
+        "Newfangled Games",
+        "Netflix"
+      ],
+      "genres": [
+        "Puzzle",
+        "Strategy",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Fold corners and edges of the screen to open new pathways and solve puzzles in the super charming Paper Trail, with a soundtrack that'll melt your heart."
+    },
+    "145070": {
+      "id": 145070,
+      "title": "Despelote",
+      "release_date": "2025-05-01",
+      "developers": [
+        "Julián Cordero",
+        "Sebastian Valbuena"
+      ],
+      "publishers": [
+        "Panic"
+      ],
+      "genres": [
+        "Simulator",
+        "Sport",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Despelote is a soccer game about people. Get immersed in the streets and parks of Quito through the eyes and ears of eight year old Julián. Dribble, pass and shoot your soccer ball around town, and see what happens when you kick it someone's way. Feel the city change as Ecuador comes closer than ever to qualifying for the World Cup."
+    },
+    "145937": {
+      "id": 145937,
+      "title": "Little Kitty, Big City",
+      "release_date": "2024-05-09",
+      "developers": [
+        "Double Dagger Studio"
+      ],
+      "publishers": [
+        "Double Dagger Studio"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "You're a curious little kitty with a big personality, on an adventure to find your way back home. Explore the city, make new friends, wear delightful hats, and leave more than a little chaos in your wake. After all, isn't that what cats do best?"
+    },
+    "149657": {
+      "id": 149657,
+      "title": "Blue Prince",
+      "release_date": "2025-04-10",
+      "developers": [
+        "Dogubomb"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
+      "genres": [
+        "Puzzle",
+        "Strategy",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Welcome to Mt. Holly, where every dawn unveils a new mystery. Navigate through shifting corridors and ever-changing chambers in this genre-defying strategy puzzle adventure. But will the unpredictable path you create lead you to the rumored Room 46?"
+    },
+    "152246": {
+      "id": 152246,
+      "title": "The Outer Worlds 2",
+      "release_date": "2025-10-29",
+      "developers": [
+        "Obsidian Entertainment"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "The Outer Worlds 2 is the sequel to the award-winning first-person sci-fi RPG from Obsidian Entertainment."
+    },
+    "166824": {
+      "id": 166824,
+      "title": "Indika",
+      "release_date": "2024-05-02",
+      "developers": [
+        "Odd Meter"
+      ],
+      "publishers": [
+        "11 bit studios",
+        "Merge Games"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "Play a third-person, story-driven game set in alternative Russia of the late XIX century where religious visions clash with harsh reality. INDIKA tells the story of a young nun who sets off on a journey of self-discovery with the most unusual companion by her side, the devil himself."
+    },
+    "168667": {
+      "id": 168667,
+      "title": "Marvel's Wolverine",
+      "release_date": "2026-09-15",
+      "developers": [
+        "Insomniac Games"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "genres": [
+        "Hack and slash/Beat 'em up",
+        "Adventure"
+      ],
+      "summary": "As he searches for answers about his past, Wolverine will do whatever it takes – unleashing brutal claw combat, violent rage and relentless determination – to cut through the mystery of the man he used to be."
+    },
+    "185252": {
+      "id": 185252,
+      "title": "Warhammer 40,000: Space Marine II",
+      "release_date": "2024-09-09",
+      "developers": [
+        "Saber Interactive"
+      ],
+      "publishers": [
+        "Focus Entertainment"
+      ],
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "The galaxy is in peril. Entire worlds are falling. The Imperium needs you. Embody the superhuman skill and brutality of a Space Marine, the greatest of the Emperor's warriors, with Clive Standen (Vikings, Taken) as the iconic Captain Titus. Unleash deadly abilities and an arsenal of devastating weaponry to obliterate the relentless Tyranid hordes. Hold at bay the horrors of the galaxy in epic battles on far-flung planets. Uncover dark secrets and drive back the everlasting night to prove your ultimate loyalty to humanity."
+    },
+    "185258": {
+      "id": 185258,
+      "title": "ARC Raiders",
+      "release_date": "2025-10-30",
+      "developers": [
+        "Embark Studios"
+      ],
+      "publishers": [
+        "Embark Studios"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "summary": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC. Enlist as a Raider and scavenge the surface to thrive in a desolate world. But beware of the machines. Beware of Raiders preying on others.\n\nARC Raiders blends the tension from extraction shooters with atmospheric settings from the adventure genre. Lurking threats—from deadly machines to other Raiders—create a constant ebb and flow of intensity, where every moment is charged with the thrill of high stakes. Extract valuable loot and explore the unfolding mysteries of a vibrant, lethal world.\n\nARC Raiders supports seamless social play across PlayStation, Xbox, and PC. Play with your squad and thrive as a team, or rise in the ranks as a lone ranger."
+    },
+    "186725": {
+      "id": 186725,
+      "title": "Vampire Survivors",
+      "release_date": "2022-02-01",
+      "developers": [
+        "Poncle"
+      ],
+      "publishers": [
+        "Poncle"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure",
+        "Indie",
+        "Arcade"
+      ],
+      "summary": "Mow thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you."
+    },
+    "191435": {
+      "id": 191435,
+      "title": "Animal Well",
+      "release_date": "2024-05-09",
+      "developers": [
+        "Shared Memory"
+      ],
+      "publishers": [
+        "Bigmode"
+      ],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "What lurks beneath the surface of this deceptively minimalistic adventure? In Animal Well there is more than what you see. Explore a dense interconnected labyrinth, and unravel its many secrets. Collect items to manipulate your environment in surprising and meaningful ways. Encounter creatures both beautiful and unsettling, and try to survive what lurks in the dark."
+    },
+    "191622": {
+      "id": 191622,
+      "title": "A Highland Song",
+      "release_date": "2023-12-05",
+      "developers": [
+        "inkle"
+      ],
+      "publishers": [
+        "inkle"
+      ],
+      "genres": [
+        "Music",
+        "Platform",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Enter the Highlands. Lose yourself. Find harmony. Reach the sea. A narrative adventure with rhythm and survival elements, from the creators of Heaven’s Vault and 80 Days."
+    },
+    "194662": {
+      "id": 194662,
+      "title": "The Witcher IV",
+      "release_date": null,
+      "developers": [
+        "CD Projekt RED"
+      ],
+      "publishers": [
+        "CD Projekt RED"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "The Witcher IV is a single-player, open-world RPG from CD PROJEKT RED. At the start of a new saga, players take on the role of Ciri, a professional monster slayer, and embark on a journey through a brutal dark-fantasy world."
+    },
+    "202956": {
+      "id": 202956,
+      "title": "Wuthering Waves",
+      "release_date": "2024-05-22",
+      "developers": [
+        "Kuro Games"
+      ],
+      "publishers": [
+        "Kuro Games"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "Wuthering Waves is a story-rich open-world action RPG. You wake from your slumber as Rover, joined by a vibrant cast of Resonators on a journey to reclaim your lost memories and surmount the Lament.\n\nThe game features fast-paced combat with a variety of mechanics such as Extreme Evasion and Dodge Counter. You can also absorb the remaining of the monsters you've defeated and use their power in battles."
+    },
+    "204381": {
+      "id": 204381,
+      "title": "The Plucky Squire",
+      "release_date": "2024-09-17",
+      "developers": [
+        "All Possible Futures"
+      ],
+      "publishers": [
+        "Devolver Digital"
+      ],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "Storybook characters discover a three-dimensional world outside the pages of their book and must jump between 2D & 3D realms to save their friends in this charming action-adventure."
+    },
+    "204634": {
+      "id": 204634,
+      "title": "The Alters",
+      "release_date": "2025-06-13",
+      "developers": [
+        "11 bit studios"
+      ],
+      "publishers": [
+        "11 bit studios"
+      ],
+      "genres": [
+        "Simulator",
+        "Adventure"
+      ],
+      "summary": "Explore an emotional sci-fi game with a unique blend of survival, adventure, and base-building elements. Help Jan Dolski, the sole survivor of an ill-fated space expedition, create alternative versions of himself to escape a hostile planet and tackle personal turmoils with this unconventional crew."
+    },
+    "213240": {
+      "id": 213240,
+      "title": "Tempest Rising",
+      "release_date": "2025-04-18",
+      "developers": [
+        "Slipgate Ironworks"
+      ],
+      "publishers": [
+        "3D Realms",
+        "Knights Peak",
+        "Saber Interactive"
+      ],
+      "genres": [
+        "Real Time Strategy (RTS)",
+        "Strategy"
+      ],
+      "summary": "Tempest Rising seamlessly merges the classic action of real-time strategy (RTS) games from the ‘90s and 2000s with modern production and performance standards. Encounter a battle-scarred 1997 in an alternate timeline where the Cuban Missile Crisis went nuclear. In the fallout from the war, a strange red electrical vine known as Tempest started spreading across the planet and changed the course of history.\n\nTempest Rising gives players full command as they build up their bases, lead armies into battle, and execute bold strategies to emerge victorious. Experience the story of two different factions across two campaigns with deep and rewarding gameplay that keeps the focus on strategy and skill, with built-in customization options that let players approach the game their own way in both single-player and multiplayer."
+    },
+    "217590": {
+      "id": 217590,
+      "title": "Tekken 8",
+      "release_date": "2024-01-26",
+      "developers": [
+        "Bandai Namco Studios"
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment"
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "summary": "Tekken 8 is the eighth canon release and tenth overall entry in the Tekken series. The game's story features 32 former and new characters, each with their own narrative that contributes to the overall story. Tekken 8 features upgraded fighting elements and systems from its predecessor, it also introduces brand-new mechanics such as the \"Heat\" system and \"Tornado\" hits. Arcade Quest was another addition to their online mode which includes tournaments, arcade features, customizable avatars and specialized currency that is featured throughout the game."
+    },
+    "217592": {
+      "id": 217592,
+      "title": "Pacific Drive",
+      "release_date": "2024-02-22",
+      "developers": [
+        "Ironwood Studios"
+      ],
+      "publishers": [
+        "Kepler Interactive"
+      ],
+      "genres": [
+        "Simulator",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Pacific Drive is a first-person driving survival game with your car as your only companion.\nNavigate a surreal reimagining of the Pacific Northwest, and face supernatural dangers as you venture into the Olympic Exclusion Zone. Each excursion into the wilderness brings unique and strange challenges as you restore and upgrade your car from an abandoned garage that acts as your home base. Gather precious resources and investigate what’s been left behind in the Zone; unravel a long-forgotten mystery while learning exactly what it takes to survive in this unpredictable, hostile environment."
+    },
+    "222341": {
+      "id": 222341,
+      "title": "Silent Hill 2",
+      "release_date": "2024-10-08",
+      "developers": [
+        "Bloober Team"
+      ],
+      "publishers": [
+        "Konami"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "Silent Hill 2 Remake is a ground-up reimagining of the 2001 psychological horror game. It follows James Sunderland as he searches for his deceased wife in the fog-shrouded town of Silent Hill. The remake features entirely rebuilt visuals in Unreal Engine 5, over-the-shoulder gameplay, reworked combat, and new voice acting."
+    },
+    "222343": {
+      "id": 222343,
+      "title": "Silent Hill f",
+      "release_date": "2025-09-25",
+      "developers": [
+        "NeoBards Entertainment"
+      ],
+      "publishers": [
+        "Konami"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "Silent Hill f is a survival horror game published by Konami as part of the Silent Hill series.\nIt is set in rural Japan during the 1960s, marking a departure from the franchise’s traditional Western settings. The story is written by Ryukishi07 and focuses on psychological horror, social pressure, and transformation."
+    },
+    "225426": {
+      "id": 225426,
+      "title": "Botany Manor",
+      "release_date": "2024-04-09",
+      "developers": [
+        "Balloon Studios"
+      ],
+      "publishers": [
+        "Whitethorn Games"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Welcome to Botany Manor, a stately home in 19th century England. You play as its inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with botanical research, to figure out the ideal habitat for a collection of forgotten flora. Grow each plant to discover the mysterious qualities they hold…"
+    },
+    "228516": {
+      "id": 228516,
+      "title": "Tiny Glade",
+      "release_date": "2024-09-23",
+      "developers": [
+        "Pounce Light"
+      ],
+      "publishers": [
+        "Pounce Light"
+      ],
+      "genres": [
+        "Simulator",
+        "Indie"
+      ],
+      "summary": "Tiny Glade is a small relaxing game about doodling castles. Explore gridless building chemistry, and watch the game carefully assemble every brick, pebble and plank. There's no management, combat, or wrong answers - just kick back and turn forgotten meadows into lovable dioramas."
+    },
+    "228525": {
+      "id": 228525,
+      "title": "Hades II",
+      "release_date": "2025-09-25",
+      "developers": [
+        "Supergiant Games"
+      ],
+      "publishers": [
+        "Supergiant Games"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Hack and slash/Beat 'em up",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler."
+    },
+    "228530": {
+      "id": 228530,
+      "title": "Death Stranding 2: On the Beach",
+      "release_date": "2025-06-26",
+      "developers": [
+        "Kojima Productions"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment",
+        "Kojima Productions"
+      ],
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
+      "summary": "Embark on an inspiring mission of human connection beyond the UCA. Sam — with companions by his side — sets out on a new journey to save humanity from extinction. Join them as they traverse a world beset by otherworldly enemies, obstacles and a haunting question: should we have connected?"
+    },
+    "242315": {
+      "id": 242315,
+      "title": "Persona5: The Phantom X",
+      "release_date": "2024-04-12",
+      "developers": [
+        "Black Wings Game Studio"
+      ],
+      "publishers": [
+        "Sega",
+        "Atlus",
+        "Perfect World Games",
+        "Iwplay World Interactive Entertainment"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Turn-based strategy (TBS)",
+        "Adventure"
+      ],
+      "summary": "Persona 5: The Phantom X is a spin-off of Persona 5, and is officially authorized by SEGA with deep involvement by Atlus."
+    },
+    "242408": {
+      "id": 242408,
+      "title": "Counter-Strike 2",
+      "release_date": "2023-09-27",
+      "developers": [
+        "Valve"
+      ],
+      "publishers": [
+        "Valve"
+      ],
+      "genres": [
+        "Shooter",
+        "Tactical"
+      ],
+      "summary": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.\n\nA free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools."
+    },
+    "250616": {
+      "id": 250616,
+      "title": "Helldivers 2",
+      "release_date": "2024-02-08",
+      "developers": [
+        "Arrowhead Game Studios"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "genres": [
+        "Shooter",
+        "Tactical"
+      ],
+      "summary": "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter."
+    },
+    "250621": {
+      "id": 250621,
+      "title": "Neva",
+      "release_date": "2024-10-15",
+      "developers": [
+        "Nomada Studio"
+      ],
+      "publishers": [
+        "Devolver Digital"
+      ],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Neva is an action-adventure game developed by Nomada Studio and published by Devolver Digital.\nThe gameplay combines side-scrolling platforming with environmental puzzles and combat.\nNeva has been praised for its stunning art style, emotional storytelling, and refined gameplay mechanics, building upon the foundation laid by GRIS."
+    },
+    "250622": {
+      "id": 250622,
+      "title": "Cat Quest III",
+      "release_date": "2024-08-08",
+      "developers": [
+        "The Gentlebros"
+      ],
+      "publishers": [
+        "Kepler Interactive"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "In Cat Quest III you play as a purrivateer in a freely explorable 2.5D open-world swarming with Pi-rats. You can sail the seas in your ship for treasures galore! But prepare for peril, as the Pirate King aims to hunt you down..."
+    },
+    "251833": {
+      "id": 251833,
+      "title": "Balatro",
+      "release_date": "2024-02-20",
+      "developers": [
+        "LocalThunk"
+      ],
+      "publishers": [
+        "Playstack"
+      ],
+      "genres": [
+        "Strategy",
+        "Turn-based strategy (TBS)",
+        "Indie",
+        "Card & Board Game"
+      ],
+      "summary": "Balatro is a deck-building roguelite in which players construct poker hands to earn chips and overcome enemy blinds. The game features mechanics for enhancing a deck of playing cards, purchasing Jokers that modify hand effects, and discovering synergies to progress through increasingly challenging encounters."
+    },
+    "252826": {
+      "id": 252826,
+      "title": "South of Midnight",
+      "release_date": "2025-04-08",
+      "developers": [
+        "Compulsion Games"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "summary": "South of Midnight is a new action-adventure from Compulsion Games. Explore the mythos and confront mysterious creatures of the Deep South in this modern folktale while learning to weave an ancient power to surmount obstacles and face the pain haunting your hometown."
+    },
+    "252827": {
+      "id": 252827,
+      "title": "Star Wars Outlaws",
+      "release_date": "2024-08-30",
+      "developers": [
+        "Massive Entertainment"
+      ],
+      "publishers": [
+        "Ubisoft Entertainment"
+      ],
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
+      "summary": "Experience the first-ever open world Star Wars game, set between the events of The Empire Strikes Back and Return of the Jedi. Explore distinct planets across the galaxy, both iconic and new. Risk it all as Kay Vess, an emerging scoundrel seeking freedom and the means to start a new life, along with her companion Nix. Fight, steal, and outwit your way through the galaxy’s crime syndicates as you join the galaxy’s most wanted."
+    },
+    "252837": {
+      "id": 252837,
+      "title": "Still Wakes the Deep",
+      "release_date": "2024-06-18",
+      "developers": [
+        "The Chinese Room"
+      ],
+      "publishers": [
+        "Secret Mode"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "1975. Disaster strikes the Beira D oil rig off the coast of Scotland. Navigate the collapsing rig to save your crew from an otherworldly horror on the edge of all logic and reality."
+    },
+    "260321": {
+      "id": 260321,
+      "title": "Fatal Fury: City of the Wolves",
+      "release_date": "2025-04-24",
+      "developers": [
+        "SNK"
+      ],
+      "publishers": [
+        "SNK"
+      ],
+      "genres": [
+        "Fighting"
+      ],
+      "summary": "26 years on, a brand-new entry in the Fatal Fury series is set to arrive on the scene! FATAL FURY: City of the Wolves features a unique art style that stimulates the senses and an innovative REV System that supercharges the excitement. Here, at long last, a new legend is about to unfold…"
+    },
+    "262538": {
+      "id": 262538,
+      "title": "Thank Goodness You're Here!",
+      "release_date": "2024-08-01",
+      "developers": [
+        "Coal Supper"
+      ],
+      "publishers": [
+        "Panic"
+      ],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Thank Goodness You're Here! is an absurd comedy slapformer set in the bizarre Northern English town of Barnsworth. As a traveling salesman, take the time to see the sights and meet the locals, who are very eager to give you a series of increasingly odd jobs…"
+    },
+    "277628": {
+      "id": 277628,
+      "title": "Arken Age",
+      "release_date": "2025-01-16",
+      "developers": [
+        "VitruviusVR"
+      ],
+      "publishers": [
+        "VitruviusVR"
+      ],
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "Arken Age is a VR action-adventure game set in the Bio-Chasm—a terraformed fantasy world created by the Grand Arborist. Engage in full physics combat using Arkenite infused swords & guns—and freely explore the densely filled environments under siege by Hyperion's neural corruption."
+    },
+    "279366": {
+      "id": 279366,
+      "title": "Kind Words 2",
+      "release_date": "2024-10-07",
+      "developers": [
+        "Popcannibal"
+      ],
+      "publishers": [
+        "Popcannibal"
+      ],
+      "genres": [
+        "Indie"
+      ],
+      "summary": "A game about being kind to real people. Send nice letters from your cozy room, go outside and say hi to your neighbors, swap recommendations, dress up for the poetry slam and add your dreams to a sky full of wishes. Join a community of real people with their hearts on their sleeves."
+    },
+    "279630": {
+      "id": 279630,
+      "title": "Shinobi: Art of Vengeance",
+      "release_date": "2025-08-29",
+      "developers": [
+        "Lizardcube",
+        "Sega"
+      ],
+      "publishers": [
+        "Sega"
+      ],
+      "genres": [
+        "Platform",
+        "Hack and slash/Beat 'em up"
+      ],
+      "summary": "Slay the enemies in the silence of the moment. Run through the world of Shinobi full of monsters and ninja actions. Grab Oborozuki, the legendary sword, and slay evil once more. Your clan and the world are counting on you."
+    },
+    "279641": {
+      "id": 279641,
+      "title": "Tales of Kenzera: Zau",
+      "release_date": "2024-04-23",
+      "developers": [
+        "Surgent Studios"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Tales of Kenzera: Zau is a 2.5D metroidvania developed by Surgent Studios and published under the EA Originals label. The game follows Zau, a young shaman who bargains with Kalunga, the God of Death, to revive his father. Players explore the mythological lands of Kenzera, using Zau's athletic abilities—such as double jumping, wall jumping, and air dashing—to traverse the environment. Equipped with the sun mask for melee attacks and the moon mask for ranged combat, Zau can upgrade both weapons along distinct paths. As players gain new skills, they unlock previously inaccessible areas, progressing through a world filled with ancestral spirits and powerful monsters."
+    },
+    "279642": {
+      "id": 279642,
+      "title": "Lost Records: Bloom & Rage",
+      "release_date": "2025-02-18",
+      "developers": [
+        "DON'T NOD"
+      ],
+      "publishers": [
+        "DON'T NOD"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Lost Records: Bloom & Rage is a brand-new story-driven journey through time from the creative minds behind Life is Strange. The magical summer of 1995 is one of self-discovery and forging unbreakable bonds for high school friends Swann, Nora, Autumn, and Kat. 27 years of no contact later, fate reunites them to confront the long-buried secret that made them promise to never speak again."
+    },
+    "279661": {
+      "id": 279661,
+      "title": "Monster Hunter Wilds",
+      "release_date": "2025-02-28",
+      "developers": [
+        "Capcom"
+      ],
+      "publishers": [
+        "Capcom"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Hack and slash/Beat 'em up",
+        "Adventure"
+      ],
+      "summary": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters and humans and their struggles to live in harmony in a world of duality."
+    },
+    "288502": {
+      "id": 288502,
+      "title": "Vampire Therapist",
+      "release_date": "2024-07-18",
+      "developers": [
+        "Little Bat Games"
+      ],
+      "publishers": [
+        "Little Bat Games",
+        "Ultimate Games"
+      ],
+      "genres": [
+        "Simulator",
+        "Adventure",
+        "Indie",
+        "Visual Novel"
+      ],
+      "summary": "Guide vampires through centuries of emotional baggage, decades of delusions and the odd bout of self-loathing with real cognitive behavioral therapy concepts and become a Vampire Therapist! Even vampires need a shoulder to cry on when a neck to bite just won’t do."
+    },
+    "294041": {
+      "id": 294041,
+      "title": "Marvel Rivals",
+      "release_date": "2024-12-06",
+      "developers": [
+        "NetEase Games"
+      ],
+      "publishers": [
+        "NetEase Games",
+        "Marvel Games"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "summary": "Marvel Rivals is a super hero team-based PvP shooter developed by NetEase Games! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!"
+    },
+    "298526": {
+      "id": 298526,
+      "title": "Kingdom Come: Deliverance II",
+      "release_date": "2025-02-04",
+      "developers": [
+        "Warhorse Studios"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Simulator",
+        "Adventure"
+      ],
+      "summary": "A thrilling story-driven action RPG, with a rich open world, set in 15th century Medieval Europe. Experience the ultimate medieval adventure - through the eyes of young Henry - as you embark on a journey of epic proportions."
+    },
+    "299582": {
+      "id": 299582,
+      "title": "Alien: Rogue Incursion",
+      "release_date": "2024-12-19",
+      "developers": [
+        "Survios"
+      ],
+      "publishers": [
+        "Survios"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "summary": "This brand-new single-player, action-horror VR game features an original story that fully surrounds players within the terrors of the Alien universe."
+    },
+    "300454": {
+      "id": 300454,
+      "title": "Sonic Rumble Party",
+      "release_date": "2025-11-05",
+      "developers": [
+        "Sonic Team",
+        "Sega"
+      ],
+      "publishers": [
+        "Sega"
+      ],
+      "genres": [
+        "Platform",
+        "Racing",
+        "Arcade"
+      ],
+      "summary": "Ready, Set, Rumble! Join Sonic in this intense arcade royale game set in Dr. Eggman's diabolical Toy World. Collect legendary skins, all-new emotes, and build skills as you progress through this action-packed game! Mayhem is best with friends!"
+    },
+    "300976": {
+      "id": 300976,
+      "title": "Assassin's Creed Shadows",
+      "release_date": "2025-03-20",
+      "developers": [
+        "Ubisoft Québec"
+      ],
+      "publishers": [
+        "Ubisoft Entertainment"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "Experience an epic historical action-adventure story set in feudal Japan! Become a lethal shinobi Assassin and a powerful legendary samurai as you explore a beautiful open world in a time of chaos. Switch seamlessly between two unlikely allies as you discover their common destiny. Master complementary playstyles, create your shinobi league, customize your hideout, and usher in a new era for Japan."
+    },
+    "302156": {
+      "id": 302156,
+      "title": "Call of Duty: Black Ops 6",
+      "release_date": "2024-10-25",
+      "developers": [
+        "Treyarch",
+        "Raven Software"
+      ],
+      "publishers": [
+        "Activision"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "summary": "Developed by Treyarch and Raven, Black Ops 6 is a spy action thriller set in the early 90s, a period of transition and upheaval in global politics, characterized by the end of the Cold War and the rise of the United States as a single superpower. With a mind-bending narrative, and unbound by the rules of engagement, this is signature Black Ops.\n\nThe Black Ops 6 Campaign provides dynamic moment-to-moment gameplay that includes a variety of play spaces with blockbuster set pieces and action-packed moments, high-stakes heists, and cloak-and-dagger spy activity.\n\nIn a best-in-class Multiplayer experience, players will test their skills across 16 new maps at launch, including 12 core 6v6 maps and 4 Strike maps that can be played 2v2 or 6v6.\n\nBlack Ops 6 also marks the epic return of Round-Based Zombies, the fan-favorite mode where players will take down hordes of the undead in two brand-new maps at launch. Post-launch, players can look forward to even more exciting maps and groundbreaking experiences dropping into both Multiplayer and Zombies."
+    },
+    "302704": {
+      "id": 302704,
+      "title": "Doom: The Dark Ages",
+      "release_date": "2025-05-15",
+      "developers": [
+        "id Software"
+      ],
+      "publishers": [
+        "Bethesda Softworks"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "summary": "DOOM: The Dark Ages is the prequel to the critically acclaimed DOOM (2016) and DOOM Eternal that tells the epic cinematic origin story of the DOOM Slayer’s rage. Players will step into the blood-stained boots of the DOOM Slayer, in this never-before-seen dark and sinister medieval war against Hell."
+    },
+    "303811": {
+      "id": 303811,
+      "title": "Astro Bot",
+      "release_date": "2024-09-06",
+      "developers": [
+        "Team Asobi"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "summary": "Buckle up for some epic PlayStation camaraderie, join forces with your favourite PlayStation icons and show the universe that small is mighty in this fresh new Astro adventure, exclusive to PS5 consoles!"
+    },
+    "305003": {
+      "id": 305003,
+      "title": "LEGO Horizon Adventures",
+      "release_date": "2024-11-14",
+      "developers": [
+        "Guerrilla Games"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "LEGO Horizon Adventures is an action-adventure game developed by Guerrilla Games and Studio Gobo, blending the Horizon series setting with LEGO-style visuals and humour.\nPlayers follow a retelling of Aloy’s story as she travels across a post-apocalyptic world inhabited by machine creatures. Gameplay includes exploration, combat, puzzle-solving, and cooperative play."
+    },
+    "305006": {
+      "id": 305006,
+      "title": "Sid Meier's Civilization VII",
+      "release_date": "2025-02-11",
+      "developers": [
+        "Firaxis Games"
+      ],
+      "publishers": [
+        "2K"
+      ],
+      "genres": [
+        "Simulator",
+        "Strategy",
+        "Turn-based strategy (TBS)",
+        "Tactical"
+      ],
+      "summary": "Rule as one of many legendary leaders from throughout history. Establish your civilization, construct cities and architectural wonders to expand your territory, conquer or cooperate with rival civilizations in pursuit of prosperity, and explore the far reaches of the unknown world. Will you build an empire that stands the test of time?"
+    },
+    "305019": {
+      "id": 305019,
+      "title": "Wanderstop",
+      "release_date": "2025-03-11",
+      "developers": [
+        "Ivy Road"
+      ],
+      "publishers": [
+        "Annapurna Interactive"
+      ],
+      "genres": [
+        "Simulator",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "From the creator of The Stanley Parable and The Beginner’s Guide comes Wanderstop, a narrative-centric cozy game about change and tea."
+    },
+    "305152": {
+      "id": 305152,
+      "title": "Clair Obscur: Expedition 33",
+      "release_date": "2025-04-24",
+      "developers": [
+        "Sandfall Interactive"
+      ],
+      "publishers": [
+        "Kepler Interactive"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics."
+    },
+    "305159": {
+      "id": 305159,
+      "title": "Atomfall",
+      "release_date": "2025-03-27",
+      "developers": [
+        "Rebellion Developments"
+      ],
+      "publishers": [
+        "Rebellion Developments"
+      ],
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "A nuclear disaster has left an area of Britain in tatters. Atomfall, a new survival-action game, will see you explore, scavenge, craft, barter and fight your way through beautifully recreated scenery in search of answers."
+    },
+    "306148": {
+      "id": 306148,
+      "title": "Super Mario Party Jamboree",
+      "release_date": "2024-10-17",
+      "developers": [
+        "Nintendo Cube"
+      ],
+      "publishers": [
+        "Nintendo"
+      ],
+      "genres": [
+        "Card & Board Game"
+      ],
+      "summary": "Get ready for the biggest party yet in Super Mario Party Jamboree for Nintendo Switch. From running through merry-go-rounds to motion-control minigolf, this jamboree is jam-packed with over 110 minigames – the most of any Mario Party game to date!\n\nWith seven boards in all, you can go with the flow in Goomba Lagoon, search for stars in Rainbow Galleria, revisit the classics of Western Land and Mario’s Rainbow Castle from past titles and more.\n\nRace across the party board in Koopathlon, a series-first 20-player online competition to see who can rack up the highest scores in minigames like the fast-paced Lane Change. The higher your score in each round, the faster you’ll get to the goal. Koopathlon is just one of a slew of additional modes – there’s something for every kind of Mario Party player to enjoy!"
+    },
+    "306149": {
+      "id": 306149,
+      "title": "The Legend of Zelda: Echoes of Wisdom",
+      "release_date": "2024-09-26",
+      "developers": [
+        "Grezzo",
+        "Nintendo Entertainment Planning & Development",
+        "Nintendo EPD Production Group No. 3"
+      ],
+      "publishers": [
+        "Nintendo"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "The people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\n\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\n\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!"
+    },
+    "313595": {
+      "id": 313595,
+      "title": "Two Point Museum",
+      "release_date": "2025-03-04",
+      "developers": [
+        "Two Point Studios"
+      ],
+      "publishers": [
+        "Sega"
+      ],
+      "genres": [
+        "Simulator",
+        "Strategy",
+        "Indie"
+      ],
+      "summary": "Curate and manage incredible museums! Explore to discover amazing artifacts. Design and refine the layout, keep staff happy, guests entertained, donations plentiful… and children off the exhibits."
+    },
+    "314934": {
+      "id": 314934,
+      "title": "Tetris Forever",
+      "release_date": "2024-11-12",
+      "developers": [
+        "Digital Eclipse"
+      ],
+      "publishers": [
+        "Digital Eclipse"
+      ],
+      "genres": [
+        "Puzzle",
+        "Strategy",
+        "Arcade"
+      ],
+      "summary": "Tetris Forever celebrates the original, genre-inspiring puzzle game that escaped from behind the Iron Curtain, onto the world stage, and into our cultural consciousness.\n\nMore than 15 playable classic games from the series' history are featured, including many being released for the first time outside Japan. Battle your friends in the multiplayer cult favorite Tetris Battle Gaiden, create massive explosions to clear lines in Super Bombliss, and see where it all began in 1984 with an accurate recreation of the first version of Tetris on the Electronika 60 computer."
+    },
+    "314942": {
+      "id": 314942,
+      "title": "Capcom Fighting Collection 2",
+      "release_date": "2025-05-16",
+      "developers": [
+        "Capcom"
+      ],
+      "publishers": [
+        "Capcom"
+      ],
+      "genres": [
+        "Fighting",
+        "Arcade"
+      ],
+      "summary": "Capcom's newest fighting collection hits the stage!\n\nChoose from fan-favorite games like Capcom vs. SNK 2: Mark of the Millennium 2001 and Project Justice to 3D action games like Power Stone and Power Stone 2 in this collection of eight classic fighting games!\n\nEach game in the collection can be played online or co-op!\n\nGet back in the ring and duke it out in battles that everyone rumored, but no one believed!\nWhether it's with a rival new or old, give it your all and strive for victory!"
+    },
+    "317407": {
+      "id": 317407,
+      "title": "Battlefield 6",
+      "release_date": "2025-10-10",
+      "developers": [
+        "EA Digital Illusions CE"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Shooter"
+      ],
+      "summary": "The ultimate all-out warfare experience. In a war of tanks, fighter jets, and massive combat arsenals, your squad is the deadliest weapon."
+    },
+    "317621": {
+      "id": 317621,
+      "title": "The Midnight Walk",
+      "release_date": "2025-05-08",
+      "developers": [
+        "MoonHood"
+      ],
+      "publishers": [
+        "Fast Travel Games"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Embark upon The Midnight Walk in this reverent dark fantasy adventure built in clay, from the minds behind Lost in Random and Fe.\n\nBecome The Burnt One, befriend a lost lantern creature named Potboy, and use his flame to light your way through a conflicting world of wonder and horror. Survive and outsmart the many monsters eager to devour your little friend’s flame as you experience five tales of fire and darkness, featuring an incredible cast of odd characters.\n\nMarvel at every disturbing detail in a landscape painstakingly handcrafted with real life clay and animated in a stop motion style. Fully playable in both flatscreen and with a VR headset."
+    },
+    "317627": {
+      "id": 317627,
+      "title": "Ghost of Yotei",
+      "release_date": "2025-10-02",
+      "developers": [
+        "Sucker Punch Productions"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "summary": "The game takes place 300 years after Ghost of Tsushima. Set in the lands surrounding Mount Yōtei, a towering peak in the heart of Ezo, an area of Japan known as Hokkaido in present day.\n\nThe area is outside the rule of Japan, and filled with sprawling grasslands, snowy tundras, and unexpected dangers."
+    },
+    "319758": {
+      "id": 319758,
+      "title": "Destiny: Rising",
+      "release_date": "2025-08-28",
+      "developers": [
+        "NetEase Games"
+      ],
+      "publishers": [
+        "NetEase Games"
+      ],
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)"
+      ],
+      "summary": "Enter an era of heroes and legends set within the rich tapestry of the Destiny Universe, where you will meet both familiar faces and intriguing new characters. Experience top-tier sci-fi shooting action in the franchise’s first mobile game as you embark on a new adventure in an alternate Destiny timeline. Play as these unique characters to defend future Earth and reclaim humanity's future!"
+    },
+    "325588": {
+      "id": 325588,
+      "title": "Rematch",
+      "release_date": "2025-06-19",
+      "developers": [
+        "Sloclap"
+      ],
+      "publishers": [
+        "Sloclap",
+        "Kepler Interactive"
+      ],
+      "genres": [
+        "Sport",
+        "Indie"
+      ],
+      "summary": "Control one player on your team and compete in fast-paced 5v5 matches from an immersive third-person perspective. Team up with your friends and join the action."
+    },
+    "325591": {
+      "id": 325591,
+      "title": "Elden Ring Nightreign",
+      "release_date": "2025-05-30",
+      "developers": [
+        "FromSoftware"
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Hack and slash/Beat 'em up"
+      ],
+      "summary": "Elden Ring: Nightreign is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core design."
+    },
+    "325594": {
+      "id": 325594,
+      "title": "Split Fiction",
+      "release_date": "2025-03-06",
+      "developers": [
+        "Hazelight Studios"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "Split Fiction is a 2025 cooperative multiplayer game. It follows two writers, Mio Hudson and Zoe Foster, as they become trapped in their imaginations."
+    },
+    "325608": {
+      "id": 325608,
+      "title": "Sonic Racing: CrossWorlds",
+      "release_date": "2025-09-25",
+      "developers": [
+        "Sonic Team"
+      ],
+      "publishers": [
+        "Sega"
+      ],
+      "genres": [
+        "Racing",
+        "Sport",
+        "Adventure"
+      ],
+      "summary": "Race across land, sea, air, space, and time in Sonic Racing: CrossWorlds! Warp through Travel Rings into new dimensions where something new awaits around every twist and turn."
+    },
+    "325609": {
+      "id": 325609,
+      "title": "Dispatch",
+      "release_date": "2025-10-22",
+      "developers": [
+        "AdHoc Studio"
+      ],
+      "publishers": [
+        "AdHoc Studio"
+      ],
+      "genres": [
+        "Point-and-click",
+        "Strategy",
+        "Adventure"
+      ],
+      "summary": "Dispatch is a superhero workplace comedy where choices matter. Manage a dysfunctional team of misfit heroes and strategize who to send to emergencies around the city, all while balancing office politics, personal relationships, and your own quest to become a hero."
+    },
+    "329130": {
+      "id": 329130,
+      "title": "Ninja Gaiden 4",
+      "release_date": "2025-10-21",
+      "developers": [
+        "Team NINJA",
+        "PlatinumGames"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "genres": [
+        "Hack and slash/Beat 'em up",
+        "Adventure"
+      ],
+      "summary": "The definitive ninja action-adventure franchise returns with Ninja Gaiden 4! Embark on a cutting-edge adventure where legacy meets innovation in a high-octane blend of style and no-holds-barred combat."
+    },
+    "334239": {
+      "id": 334239,
+      "title": "Absolum",
+      "release_date": "2025-10-09",
+      "developers": [
+        "DotEmu"
+      ],
+      "publishers": [
+        "DotEmu"
+      ],
+      "genres": [
+        "Fighting",
+        "Role-playing (RPG)",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Crafted with passion by the dream team that redefined side-scrolling beat 'em ups, Absolum mixes top-of-the-class combat action with modern roguelite elements, bringing all the vibes of the fantasy arcade hits of the past into an immersive adventure set in the original world of Talamh."
+    },
+    "335127": {
+      "id": 335127,
+      "title": "Ghost Town",
+      "release_date": "2025-04-24",
+      "developers": [
+        "Fireproof Games"
+      ],
+      "publishers": [
+        "Fireproof Games"
+      ],
+      "genres": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "Ghost Town is a single player VR puzzle-adventure from the makers of The Room. London, 1983. Edith Penrose is a ghost hunter, busy exorcising her way through the city's restless spirits. But after her brother goes missing Edith must draw upon her wits & supernatural talents to unravel the mystery."
+    },
+    "336964": {
+      "id": 336964,
+      "title": "F1 25",
+      "release_date": "2025-05-30",
+      "developers": [
+        "Codemasters"
+      ],
+      "publishers": [
+        "Electronic Arts"
+      ],
+      "genres": [
+        "Racing",
+        "Simulator",
+        "Sport"
+      ],
+      "summary": "Leave your mark on the world of racing in F1 25, the official video game of the 2025 FIA Formula One World Championship, featuring a revamped My Team mode, the thrilling third chapter of Braking Point, and more!"
+    },
+    "338067": {
+      "id": 338067,
+      "title": "Mario Kart World",
+      "release_date": "2025-06-05",
+      "developers": [
+        "Nintendo EPD Production Group No. 9"
+      ],
+      "publishers": [
+        "Nintendo"
+      ],
+      "genres": [
+        "Racing",
+        "Adventure"
+      ],
+      "summary": "Put the pedal to the metal in a vast interconnected environment. Race seamlessly across connected courses like never before. Participate in the new knockout tour elimination mode, where you’ll barrel through back-to-back courses and checkpoints. And in free roam, it’s possible to go off the racetrack and drive in any direction you wish, explore areas that pique your interest and take some photos at scenic spots with a group of friends."
+    },
+    "338106": {
+      "id": 338106,
+      "title": "Donkey Kong Bananza",
+      "release_date": "2025-07-17",
+      "developers": [
+        "Nintendo EPD Production Group No. 8"
+      ],
+      "publishers": [
+        "Nintendo"
+      ],
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "summary": "Donkey Kong Bananza is exclusively on Nintendo Switch 2! Explore a vast underground world—by smashing your way through it! Bash, throw, and climb through just about anything in DK’s brand-new 3D platforming action-adventure game!"
+    },
+    "346035": {
+      "id": 346035,
+      "title": "Ball x Pit",
+      "release_date": "2025-10-15",
+      "developers": [
+        "Kenny Sun"
+      ],
+      "publishers": [
+        "Devolver Digital"
+      ],
+      "genres": [
+        "Shooter",
+        "Indie",
+        "Arcade"
+      ],
+      "summary": "BALL x PIT is a brick-breaking, ball-fusing, base-building survival roguelite where you battle hordes of monstrous enemies with your arsenal of ricocheting balls."
+    },
+    "347121": {
+      "id": 347121,
+      "title": "Final Fantasy Tactics: The Ivalice Chronicles",
+      "release_date": "2025-09-30",
+      "developers": [
+        "Square Enix Creative Studio III",
+        "Algebra Factory"
+      ],
+      "publishers": [
+        "Square Enix"
+      ],
+      "genres": [
+        "Role-playing (RPG)",
+        "Strategy",
+        "Turn-based strategy (TBS)",
+        "Tactical"
+      ],
+      "summary": "This dramatic tale of ambition, betrayal, and honor comes to life again with an updated and enriched script with fully voiced dialogue, alongside improved graphics that bring a new level of immersion and playability to the battlefield. Additionally, the enhanced version brings quality-of-life updates like new difficulties, a revamped UI, auto save, and more that make the game more accessible to newcomers."
+    },
+    "347122": {
+      "id": 347122,
+      "title": "Mortal Kombat: Legacy Kollection",
+      "release_date": "2025-10-30",
+      "developers": [
+        "Digital Eclipse"
+      ],
+      "publishers": [
+        "Atari",
+        "Digital Eclipse"
+      ],
+      "genres": [
+        "Fighting",
+        "Arcade"
+      ],
+      "summary": "Step into the arena and choose your fighter! Mortal Kombat: Legacy Kollection includes all the essential games from Mortal Kombat's early years. Experience the legendary origins of the franchise with the iconic arcade classics that started it all—alongside a curated selection of most-loved home versions for the Super NES and Sega Genesis. Dive deeper with rare and fan-favorite releases across the Game Boy, Game Gear, Sega 32X, Game Boy Advance, and more—a celebration of the franchise’s groundbreaking legacy.\n\nDigital Eclipse's interactive documentary format explores how Mortal Kombat changed the way society perceived video games. By using digitized humans as player sprites in an over-the-top, martial-arts fighter, the game thrilled players, shocked critics, and laid the foundation for a franchise that has thrived for more than 30 years. Hear firsthand from the original dev team of Ed Boon, John Tobias, John Vogel, and Dan Forden, along with other exclusive interviews, rare concept art, vintage marketing materials, and archival video footage.\n\nMortal Kombat: Legacy Kollection also lets players explore Mortal Kombat lore, with a timeline of the original series' storyline and comprehensive character histories that offer stories, secrets, and glimpses behind the scenes at their creation."
+    },
+    "347646": {
+      "id": 347646,
+      "title": "LEGO Voyagers",
+      "release_date": "2025-09-15",
+      "developers": [
+        "Light Brick Studio"
+      ],
+      "publishers": [
+        "Annapurna Interactive"
+      ],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "From the makers of LEGO Builder's Journey comes a new 2-player co-op adventure about friendship and play. When two friends make it their mission to rescue an abandoned spaceship, they embark on a journey beyond their wildest dreams."
+    },
+    "347650": {
+      "id": 347650,
+      "title": "Jurassic World Evolution 3",
+      "release_date": "2025-10-21",
+      "developers": [
+        "Frontier Developments"
+      ],
+      "publishers": [
+        "Frontier Developments"
+      ],
+      "genres": [
+        "Simulator",
+        "Strategy"
+      ],
+      "summary": "Build your own Jurassic World. Nurture generations of dinosaurs with the series debut of juveniles, create and manage sprawling prehistoric parks around the globe, and let your imagination roar with powerful new creative options."
+    },
+    "347652": {
+      "id": 347652,
+      "title": "Marvel's Deadpool VR",
+      "release_date": "2025-11-18",
+      "developers": [
+        "Twisted Pixel Games"
+      ],
+      "publishers": [
+        "Oculus Studios"
+      ],
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
+      "summary": "Deadpool VR is a game developed exclusively for Meta Quest 3/3S. The gameplay features a mix of parkour and combat."
+    },
+    "347661": {
+      "id": 347661,
+      "title": "LEGO Party!",
+      "release_date": "2025-09-30",
+      "developers": [
+        "SMG Studio"
+      ],
+      "publishers": [
+        "Fictions"
+      ],
+      "genres": [
+        "Arcade",
+        "Card & Board Game"
+      ],
+      "summary": "LEGO(R) Party! is a 4-player party game that's built different! Compete against your friends in wacky Challenge Zones and 60 hilarious minigames from across your favorite LEGO sets like Pirates, Space, NINJAGO and more. Play your way! Join your friends no matter their platform locally or online!"
+    },
+    "347668": {
+      "id": 347668,
+      "title": "Resident Evil Requiem",
+      "release_date": "2026-02-27",
+      "developers": [
+        "Capcom Development Division 1"
+      ],
+      "publishers": [
+        "Capcom"
+      ],
+      "genres": [
+        "Shooter",
+        "Puzzle",
+        "Adventure"
+      ],
+      "summary": "Resident Evil Requiem is the ninth entry in the Resident Evil series. Experience terrifying survival horror with FBI analyst Grace Ashcroft, and dive into pulse-pounding action with legendary agent Leon S. Kennedy. Both of their journeys and unique gameplay styles intertwine into a heart-stopping, emotional experience that will chill you to your core."
+    },
+    "349524": {
+      "id": 349524,
+      "title": "Peak",
+      "release_date": "2025-06-16",
+      "developers": [
+        "Landfall Games",
+        "Aggro Crab Games"
+      ],
+      "publishers": [
+        "Landfall Games",
+        "Aggro Crab Games"
+      ],
+      "genres": [
+        "Platform",
+        "Adventure",
+        "Indie"
+      ],
+      "summary": "Peak is an online co-op climbing game where the slightest mistake can spell your doom. As a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?"
+    },
+    "353848": {
+      "id": 353848,
+      "title": "EA Sports FC 26",
+      "release_date": "2025-09-26",
+      "developers": [
+        "EA Vancouver"
+      ],
+      "publishers": [
+        "EA Sports"
+      ],
+      "genres": [
+        "Simulator",
+        "Sport"
+      ],
+      "summary": "The Club is Yours in EA SPORTS FC 26. Play your way with an overhauled gameplay experience powered by community feedback, Manager Live Challenges that bring fresh storylines to the new season, and Archetypes inspired by greats of the game."
+    },
+    "358822": {
+      "id": 358822,
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+      "release_date": "2025-10-30",
+      "developers": [
+        "Ryu Ga Gotoku Studios"
+      ],
+      "publishers": [
+        "Sega"
+      ],
+      "genres": [
+        "Fighting",
+        "Arcade"
+      ],
+      "summary": "Virtua Fighter 5 R.E.V.O. World Stage takes the gameplay of Virtua Fighter 5 to new heights:\n\nRollback Netcode and Cross-play support let you take on any challenger, anywhere, across the globe in the most intense battles yet.\n\nA brand-new single-player mode, \"\"World Stage\"\": Challenge powerful rivals on a solo quest to become the ultimate fighter\n\nEnhanced replay functionality and improved training tools."
+    }
+  }
+}
