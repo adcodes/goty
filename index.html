@@ -174,9 +174,7 @@
       }
     }
 
-    .result-left {
-      min-width: 0;
-    }
+    .result-left { min-width: 0; }
 
     .result-title {
       font-size: 0.95rem;
@@ -219,9 +217,7 @@
     }
 
     /* ── Detail view ── */
-    #detail {
-      display: none;
-    }
+    #detail { display: none; }
 
     /* ── Back button ── */
     .back-btn {
@@ -256,7 +252,7 @@
       font-size: 2rem;
       font-weight: 700;
       line-height: 1.15;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
 
     .detail-badges {
@@ -264,6 +260,7 @@
       flex-wrap: wrap;
       gap: 8px;
       align-items: center;
+      margin-bottom: 20px;
     }
 
     .badge {
@@ -281,7 +278,52 @@
       border-color: transparent;
     }
 
+    /* ── Game meta (IGDB info) ── */
+    .game-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .game-meta-row {
+      display: flex;
+      gap: 10px;
+      font-size: 0.825rem;
+      line-height: 1.5;
+    }
+
+    .game-meta-label {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      width: 76px;
+      padding-top: 2px;
+    }
+
+    .game-meta-value {
+      color: var(--text-secondary);
+    }
+
+    .game-summary {
+      margin-top: 16px;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+
     /* ── Award history ── */
+    .awards-heading {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
     .event-group {
       margin-bottom: 36px;
     }
@@ -300,9 +342,7 @@
       align-items: center;
     }
 
-    .event-heading-wins {
-      color: var(--accent);
-    }
+    .event-heading-wins { color: var(--accent); }
 
     .nomination-row {
       display: grid;
@@ -378,6 +418,7 @@
     @media (max-width: 500px) {
       header { padding: 36px 0 32px; }
       .detail-title { font-size: 1.5rem; }
+      .game-meta-label { width: 64px; }
     }
   </style>
 </head>
@@ -409,24 +450,26 @@
 </div>
 
 <script>
-  let games = [];
+  let awards = [];
+  let gameDetails = {};
   let loaded = false;
 
-  fetch('awards.json')
-    .then(r => r.json())
-    .then(data => {
-      games = data.games;
-      loaded = true;
-      document.getElementById('footer-right').textContent =
-        `${games.length.toLocaleString()} games · ${data.last_updated}`;
-      document.getElementById('search-count').textContent =
-        `${games.length.toLocaleString()} games`;
-      router();
-    })
-    .catch(() => {
-      document.getElementById('results').innerHTML =
-        `<div class="state-message">failed to load award data</div>`;
-    });
+  Promise.all([
+    fetch('awards.json').then(r => r.json()),
+    fetch('games.json').then(r => r.json()).catch(() => ({ games: {} }))
+  ]).then(([awardsData, gamesData]) => {
+    awards = awardsData.games;
+    gameDetails = gamesData.games || {};
+    loaded = true;
+    document.getElementById('footer-right').textContent =
+      `${awards.length.toLocaleString()} games · ${awardsData.last_updated}`;
+    document.getElementById('search-count').textContent =
+      `${awards.length.toLocaleString()} games`;
+    router();
+  }).catch(() => {
+    document.getElementById('results').innerHTML =
+      `<div class="state-message">failed to load award data</div>`;
+  });
 
   const searchInput = document.getElementById('search-input');
   searchInput.addEventListener('input', updateResults);
@@ -439,7 +482,7 @@
       document.getElementById('results').innerHTML =
         `<div class="state-message">type a game title to begin</div>`;
       document.getElementById('search-count').textContent =
-        `${games.length.toLocaleString()} games`;
+        `${awards.length.toLocaleString()} games`;
       return;
     }
 
@@ -452,7 +495,7 @@
 
   function search(query, limit) {
     const q = query.toLowerCase();
-    return games
+    return awards
       .filter(g => g.title && g.title.toLowerCase().includes(q))
       .slice(0, limit);
   }
@@ -482,11 +525,14 @@
       const { wins, noms } = countWinsAndNoms(g);
       const total = wins + noms;
       const events = uniqueEvents(g);
+      const info = gameDetails[String(g.igdb_id)];
+      const developer = info && info.developers && info.developers[0] ? info.developers[0] : null;
+
       return `
         <div class="result-item" onclick="navigateTo('game',${g.igdb_id})">
           <div class="result-left">
             <div class="result-title">${esc(g.title)}</div>
-            <div class="result-meta">${total} nomination${total === 1 ? '' : 's'} across ${events} event${events === 1 ? '' : 's'}</div>
+            <div class="result-meta">${developer ? esc(developer) + ' · ' : ''}${total} nomination${total === 1 ? '' : 's'} across ${events} event${events === 1 ? '' : 's'}</div>
           </div>
           <div class="result-right">
             ${wins ? `<div class="result-wins">${wins} win${wins === 1 ? '' : 's'}</div>` : ''}
@@ -502,12 +548,33 @@
   }
 
   function renderDetail(igdb_id) {
-    const game = games.find(g => g.igdb_id === igdb_id);
+    const game = awards.find(g => g.igdb_id === igdb_id);
     if (!game) return showSearch();
 
     document.title = `${game.title} — goty`;
 
     const { wins, noms } = countWinsAndNoms(game);
+    const info = gameDetails[String(igdb_id)] || {};
+
+    // Build meta rows from IGDB data
+    const metaRows = [
+      ['Released',  info.release_date ? info.release_date.slice(0, 4) : null],
+      ['Developer', (info.developers || []).length ? info.developers.join(', ') : null],
+      ['Publisher', (info.publishers || []).length ? info.publishers.join(', ') : null],
+      ['Genres',    (info.genres     || []).length ? info.genres.join(', ')     : null],
+    ].filter(([, v]) => v);
+
+    const metaHtml = metaRows.length ? `
+      <div class="game-meta">
+        ${metaRows.map(([label, value]) => `
+          <div class="game-meta-row">
+            <span class="game-meta-label">${label}</span>
+            <span class="game-meta-value">${esc(value)}</span>
+          </div>
+        `).join('')}
+      </div>
+      ${info.summary ? `<div class="game-summary">${esc(info.summary)}</div>` : ''}
+    ` : '';
 
     // Group nominations by year + event
     const groups = {};
@@ -517,7 +584,6 @@
       groups[key].nominations.push(nom);
     }
 
-    // Sort groups by year desc, then event name
     const sortedGroups = Object.values(groups).sort((a, b) =>
       b.year - a.year || a.event.localeCompare(b.event)
     );
@@ -525,7 +591,6 @@
     const groupsHtml = sortedGroups.map(group => {
       const groupWins = group.nominations.filter(n => n.result === 'Winner').length;
 
-      // Winners first, then nominees alphabetically by category
       const sorted = [...group.nominations].sort((a, b) => {
         if (a.result === 'Winner' && b.result !== 'Winner') return -1;
         if (a.result !== 'Winner' && b.result === 'Winner') return 1;
@@ -575,6 +640,7 @@
           ${wins ? `<span class="badge badge-accent">${wins} win${wins === 1 ? '' : 's'}</span>` : ''}
           <span class="badge">${wins + noms} nomination${wins + noms === 1 ? '' : 's'}</span>
         </div>
+        ${metaHtml}
       </div>
       ${groupsHtml}
     `;
@@ -591,7 +657,7 @@
       `<div class="state-message">type a game title to begin</div>`;
     if (loaded) {
       document.getElementById('search-count').textContent =
-        `${games.length.toLocaleString()} games`;
+        `${awards.length.toLocaleString()} games`;
     }
   }
 
