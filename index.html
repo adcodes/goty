@@ -4,8 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GOTY</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Syne:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -14,7 +12,6 @@
       --bg-raised: #131316;
       --bg-card: #16161a;
       --bg-card-alt: #1a1a1f;
-      --bg-label-alt: #111114;
       --bg-hover: #1c1c21;
       --border: #232328;
       --border-light: #2a2a30;
@@ -25,8 +22,8 @@
       --accent-glow: rgba(249, 115, 22, 0.08);
       --accent-dim: rgba(249, 115, 22, 0.15);
       --winner-dim: rgba(249, 115, 22, 0.12);
-      --font-mono: 'DM Mono', monospace;
-      --font-display: 'Syne', sans-serif;
+      --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
+      --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
       --radius: 8px;
       --max-width: 660px;
     }
@@ -67,7 +64,6 @@
       font-size: 1.1rem;
       font-weight: 500;
       color: var(--accent);
-      letter-spacing: -0.03em;
       cursor: pointer;
       user-select: none;
       touch-action: manipulation;
@@ -81,7 +77,6 @@
       font-size: 0.78rem;
       font-weight: 500;
       color: var(--text-secondary);
-      letter-spacing: 0.01em;
     }
 
     /* ── Search ── */
@@ -118,7 +113,6 @@
       color: var(--text-muted);
       text-align: right;
       padding: 6px 4px 24px;
-      letter-spacing: 0.04em;
     }
 
     /* ── State message ── */
@@ -128,7 +122,6 @@
       font-size: 0.78rem;
       padding: 56px 0 64px;
       text-align: center;
-      letter-spacing: 0.03em;
       line-height: 2.5;
     }
 
@@ -181,6 +174,10 @@
       }
     }
 
+    .result-left {
+      min-width: 0;
+    }
+
     .result-title {
       font-size: 0.95rem;
       font-weight: 600;
@@ -188,7 +185,6 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      letter-spacing: -0.01em;
     }
 
     .result-meta {
@@ -199,7 +195,6 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      letter-spacing: 0.02em;
     }
 
     .result-right {
@@ -261,7 +256,6 @@
       font-size: 2rem;
       font-weight: 700;
       line-height: 1.15;
-      letter-spacing: -0.03em;
       margin-bottom: 16px;
     }
 
@@ -275,7 +269,6 @@
     .badge {
       font-family: var(--font-mono);
       font-size: 0.72rem;
-      letter-spacing: 0.04em;
       padding: 4px 10px;
       border-radius: 4px;
       border: 1px solid var(--border-light);
@@ -334,7 +327,6 @@
       font-size: 0.875rem;
       font-weight: 600;
       color: var(--text);
-      letter-spacing: -0.01em;
     }
 
     .nomination-talent {
@@ -377,7 +369,6 @@
       font-family: var(--font-mono);
       font-size: 0.68rem;
       color: var(--text-muted);
-      letter-spacing: 0.06em;
       display: flex;
       justify-content: space-between;
       border-top: 1px solid var(--border);
@@ -419,11 +410,13 @@
 
 <script>
   let games = [];
+  let loaded = false;
 
   fetch('awards.json')
     .then(r => r.json())
     .then(data => {
       games = data.games;
+      loaded = true;
       document.getElementById('footer-right').textContent =
         `${games.length.toLocaleString()} games · ${data.last_updated}`;
       document.getElementById('search-count').textContent =
@@ -439,6 +432,7 @@
   searchInput.addEventListener('input', updateResults);
 
   function updateResults() {
+    if (!loaded) return;
     const q = searchInput.value.trim();
 
     if (!q) {
@@ -490,7 +484,7 @@
       const events = uniqueEvents(g);
       return `
         <div class="result-item" onclick="navigateTo('game',${g.igdb_id})">
-          <div style="min-width:0">
+          <div class="result-left">
             <div class="result-title">${esc(g.title)}</div>
             <div class="result-meta">${total} nomination${total === 1 ? '' : 's'} across ${events} event${events === 1 ? '' : 's'}</div>
           </div>
@@ -515,7 +509,7 @@
 
     const { wins, noms } = countWinsAndNoms(game);
 
-    // Group nominations by event + year
+    // Group nominations by year + event
     const groups = {};
     for (const nom of game.nominations) {
       const key = `${nom.year}__${nom.event}`;
@@ -531,7 +525,7 @@
     const groupsHtml = sortedGroups.map(group => {
       const groupWins = group.nominations.filter(n => n.result === 'Winner').length;
 
-      // Winners first, then nominees
+      // Winners first, then nominees alphabetically by category
       const sorted = [...group.nominations].sort((a, b) => {
         if (a.result === 'Winner' && b.result !== 'Winner') return -1;
         if (a.result !== 'Winner' && b.result === 'Winner') return 1;
@@ -595,8 +589,10 @@
     searchInput.value = '';
     document.getElementById('results').innerHTML =
       `<div class="state-message">type a game title to begin</div>`;
-    document.getElementById('search-count').textContent =
-      `${games.length.toLocaleString()} games`;
+    if (loaded) {
+      document.getElementById('search-count').textContent =
+        `${games.length.toLocaleString()} games`;
+    }
   }
 
   function showDetail() {
