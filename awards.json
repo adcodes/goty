@@ -1,0 +1,1429 @@
+{
+  "last_updated": "2026-04-01",
+  "games": [
+    {
+      "igdb_id": 141114,
+      "title": "007 First Light",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Most Anticipated Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 126460,
+      "title": "2XKO",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Fighting",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 334239,
+      "title": "Absolum",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Independent Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 299582,
+      "title": "Alien: Rogue Incursion",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best VR / AR",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 185258,
+      "title": "ARC Raiders",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Multiplayer",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 277628,
+      "title": "Arken Age",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best VR / AR",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 300976,
+      "title": "Assassin's Creed Shadows",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Innovation in Accessibility",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 305159,
+      "title": "Atomfall",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Innovation in Accessibility",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 135994,
+      "title": "Avowed",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best RPG",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 119171,
+      "title": "Baldur's Gate III",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Community Support",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 346035,
+      "title": "Ball x Pit",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Independent Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 317407,
+      "title": "Battlefield 6",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action Game",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Audio Design",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Multiplayer",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 149657,
+      "title": "Blue Prince",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Debut Indie Game",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Independent Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 314942,
+      "title": "Capcom Fighting Collection 2",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Fighting",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 305152,
+      "title": "Clair Obscur: Expedition 33",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Art Direction",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Audio Design",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Debut Indie Game",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Game Direction",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Independent Game",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Narrative",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Performance",
+          "result": "Winner",
+          "talent": [
+            {
+              "name": "Jennifer English",
+              "credit": "Maelle (voice)",
+              "imdb_url": "https://www.imdb.com/name/nm10804818/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Performance",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Ben Starr",
+              "credit": "Verso • Additional Voices",
+              "imdb_url": "https://www.imdb.com/name/nm5471977/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Performance",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Charlie Cox",
+              "credit": "Gustave (voice)",
+              "imdb_url": "https://www.imdb.com/name/nm1214435/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best RPG",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Score and Music",
+          "result": "Winner",
+          "talent": [
+            {
+              "name": "Lorien Testard",
+              "credit": "Music Composer",
+              "imdb_url": "https://www.imdb.com/name/nm17244223/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Game of the Year",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 123255,
+      "title": "Consume Me",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Games for Impact",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 242408,
+      "title": "Counter-Strike 2",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Esports Game",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 228530,
+      "title": "Death Stranding 2: On the Beach",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action / Adventure",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Art Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Audio Design",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Game Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Narrative",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Score and Music",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Woodkid",
+              "credit": "Composer",
+              "imdb_url": "https://www.imdb.com/name/nm5677558/"
+            },
+            {
+              "name": "Ludvig Forssell",
+              "credit": "Composer",
+              "imdb_url": "https://www.imdb.com/name/nm5603882/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Game of the Year",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 145070,
+      "title": "Despelote",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Debut Indie Game",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Games for Impact",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 319758,
+      "title": "Destiny: Rising",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Mobile Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 325609,
+      "title": "Dispatch",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Debut Indie Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 338106,
+      "title": "Donkey Kong Bananza",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Family",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Game of the Year",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 302704,
+      "title": "Doom: The Dark Ages",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action Game",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Innovation in Accessibility",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 2963,
+      "title": "Dota 2",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Esports Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 353848,
+      "title": "EA Sports FC 26",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sports Racing",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Innovation in Accessibility",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 325591,
+      "title": "Elden Ring Nightreign",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Multiplayer",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 336964,
+      "title": "F1 25",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sports Racing",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 260321,
+      "title": "Fatal Fury: City of the Wolves",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Fighting",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 347121,
+      "title": "Final Fantasy Tactics: The Ivalice Chronicles",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sim / Strategy",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 386,
+      "title": "Final Fantasy XIV",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Community Support",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Ongoing",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 1905,
+      "title": "Fortnite",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Community Support",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Ongoing",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 317627,
+      "title": "Ghost of Yotei",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action / Adventure",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Art Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Audio Design",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Game Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Narrative",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Performance",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Erika Ishii",
+              "credit": "Atsu",
+              "imdb_url": "https://www.imdb.com/name/nm5604876/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Score and Music",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Toma Otowa",
+              "credit": "Composer",
+              "imdb_url": "https://www.imdb.com/name/nm0389964/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "igdb_id": 335127,
+      "title": "Ghost Town",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best VR / AR",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 52189,
+      "title": "Grand Theft Auto VI",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Most Anticipated Game",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 228525,
+      "title": "Hades II",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action Game",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Art Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Game Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Independent Game",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Score and Music",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Darren Korb",
+              "credit": "Composer",
+              "imdb_url": "https://www.imdb.com/name/nm2387229/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Game of the Year",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 250616,
+      "title": "Helldivers 2",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Community Support",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Ongoing",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 115289,
+      "title": "Hollow Knight: Silksong",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action / Adventure",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Art Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Independent Game",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Score and Music",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Christopher Larkin",
+              "credit": "Composer",
+              "imdb_url": "https://www.imdb.com/name/nm3897451/"
+            }
+          ]
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Game of the Year",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 142415,
+      "title": "Indiana Jones and the Great Circle",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action / Adventure",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Performance",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Troy Baker",
+              "credit": "Indiana Jones (voice)",
+              "imdb_url": "https://www.imdb.com/name/nm1684869/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "igdb_id": 347650,
+      "title": "Jurassic World Evolution 3",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sim / Strategy",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 298526,
+      "title": "Kingdom Come: Deliverance II",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Narrative",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best RPG",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Game of the Year",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 115,
+      "title": "League of Legends",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Esports Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 347661,
+      "title": "LEGO Party!",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Family",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 347646,
+      "title": "LEGO Voyagers",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Family",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 279642,
+      "title": "Lost Records: Bloom & Rage",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Games for Impact",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 338067,
+      "title": "Mario Kart World",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Family",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sports Racing",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 294041,
+      "title": "Marvel Rivals",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Ongoing",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 347652,
+      "title": "Marvel's Deadpool VR",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best VR / AR",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 168667,
+      "title": "Marvel's Wolverine",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Most Anticipated Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 79392,
+      "title": "Mobile Legends: Bang Bang",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Esports Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 279661,
+      "title": "Monster Hunter Wilds",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best RPG",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 347122,
+      "title": "Mortal Kombat: Legacy Kollection",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Fighting",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 329130,
+      "title": "Ninja Gaiden 4",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 3225,
+      "title": "No Man's Sky",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Community Support",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Ongoing",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 349524,
+      "title": "Peak",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Multiplayer",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 242315,
+      "title": "Persona5: The Phantom X",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Mobile Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 325588,
+      "title": "Rematch",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sports Racing",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 347668,
+      "title": "Resident Evil Requiem",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Most Anticipated Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 279630,
+      "title": "Shinobi: Art of Vengeance",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 305006,
+      "title": "Sid Meier's Civilization VII",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sim / Strategy",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 222343,
+      "title": "Silent Hill f",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Audio Design",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Narrative",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Performance",
+          "result": "Nominee",
+          "talent": [
+            {
+              "name": "Konatsu Kato",
+              "credit": "Shimizu Hinako(voice)",
+              "imdb_url": "https://www.imdb.com/name/nm10273240/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "igdb_id": 325608,
+      "title": "Sonic Racing: CrossWorlds",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Family",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sports Racing",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 300454,
+      "title": "Sonic Rumble Party",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Mobile Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 252826,
+      "title": "South of Midnight",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Games for Impact",
+          "result": "Winner",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Innovation in Accessibility",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 325594,
+      "title": "Split Fiction",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Action / Adventure",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Family",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Game Direction",
+          "result": "Nominee",
+          "talent": []
+        },
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Multiplayer",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 213240,
+      "title": "Tempest Rising",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sim / Strategy",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 204634,
+      "title": "The Alters",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sim / Strategy",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 317621,
+      "title": "The Midnight Walk",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best VR / AR",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 152246,
+      "title": "The Outer Worlds 2",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best RPG",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 194662,
+      "title": "The Witcher IV",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Most Anticipated Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 313595,
+      "title": "Two Point Museum",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Sim / Strategy",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 97494,
+      "title": "Umamusume: Pretty Derby",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Mobile Game",
+          "result": "Winner",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 126459,
+      "title": "Valorant",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Esports Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 358822,
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Fighting",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 305019,
+      "title": "Wanderstop",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Games for Impact",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    },
+    {
+      "igdb_id": 202956,
+      "title": "Wuthering Waves",
+      "nominations": [
+        {
+          "event": "The Game Awards",
+          "year": 2025,
+          "category": "Best Mobile Game",
+          "result": "Nominee",
+          "talent": []
+        }
+      ]
+    }
+  ]
+}

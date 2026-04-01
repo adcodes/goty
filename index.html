@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOTY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Syne:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0c0c0f;
+      --bg-raised: #131316;
+      --bg-card: #16161a;
+      --bg-card-alt: #1a1a1f;
+      --bg-label-alt: #111114;
+      --bg-hover: #1c1c21;
+      --border: #232328;
+      --border-light: #2a2a30;
+      --text: #ececf0;
+      --text-secondary: #c0c0c8;
+      --text-muted: #8a8a96;
+      --accent: #f97316;
+      --accent-glow: rgba(249, 115, 22, 0.08);
+      --accent-dim: rgba(249, 115, 22, 0.15);
+      --winner-dim: rgba(249, 115, 22, 0.12);
+      --font-mono: 'DM Mono', monospace;
+      --font-display: 'Syne', sans-serif;
+      --radius: 8px;
+      --max-width: 660px;
+    }
+
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-display);
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    #app {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 24px;
+      width: 100%;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 56px 0 40px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+    }
+
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: -0.03em;
+      cursor: pointer;
+      user-select: none;
+      touch-action: manipulation;
+      flex-shrink: 0;
+    }
+
+    .logo:hover { opacity: 0.8; }
+
+    .header-explainer {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      letter-spacing: 0.01em;
+    }
+
+    /* ── Search ── */
+    .search-wrap {
+      position: relative;
+      margin-bottom: 8px;
+    }
+
+    #search-input {
+      width: 100%;
+      background: var(--bg-raised);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: var(--font-display);
+      font-size: 16px;
+      font-weight: 400;
+      padding: 16px 20px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      -webkit-appearance: none;
+    }
+
+    #search-input::placeholder { color: var(--text-muted); }
+
+    #search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .search-count {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-align: right;
+      padding: 6px 4px 24px;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── State message ── */
+    .state-message {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      padding: 56px 0 64px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      line-height: 2.5;
+    }
+
+    /* ── Results ── */
+    #results {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      overflow: visible;
+    }
+
+    #results.fade-in {
+      animation: fadeIn 0.15s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .result-item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 20px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: background 0.12s, border-color 0.12s;
+      width: 100%;
+    }
+
+    .result-item:nth-child(odd)  { background: var(--bg-card); }
+    .result-item:nth-child(even) { background: var(--bg-card-alt); }
+
+    @media (hover: hover) {
+      .result-item:hover {
+        background: var(--bg-hover);
+        border-color: var(--border-light);
+        transform: translateX(2px);
+      }
+    }
+
+    @media (hover: none) {
+      .result-item:active {
+        background: var(--bg-hover);
+        transform: scale(0.99);
+      }
+    }
+
+    .result-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      letter-spacing: -0.01em;
+    }
+
+    .result-meta {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      letter-spacing: 0.02em;
+    }
+
+    .result-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+
+    .result-wins {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--accent);
+    }
+
+    .result-noms {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Detail view ── */
+    #detail {
+      display: none;
+    }
+
+    /* ── Back button ── */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: none;
+      border: none;
+      border-left: 2px solid var(--accent);
+      padding: 4px 0 4px 12px;
+      transition: color 0.1s;
+      touch-action: manipulation;
+    }
+
+    .back-btn:hover { color: var(--accent); }
+
+    /* ── Detail header ── */
+    .detail-header {
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .detail-title {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+    }
+
+    .detail-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .badge {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      padding: 4px 10px;
+      border-radius: 4px;
+      border: 1px solid var(--border-light);
+      color: var(--text-secondary);
+    }
+
+    .badge-accent {
+      color: var(--accent);
+      background: var(--accent-dim);
+      border-color: transparent;
+    }
+
+    /* ── Award history ── */
+    .event-group {
+      margin-bottom: 36px;
+    }
+
+    .event-heading {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .event-heading-wins {
+      color: var(--accent);
+    }
+
+    .nomination-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: start;
+      gap: 16px;
+      padding: 12px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 3px;
+    }
+
+    .nomination-row:nth-child(odd)  { background: var(--bg-card); }
+    .nomination-row:nth-child(even) { background: var(--bg-card-alt); }
+
+    .nomination-row.is-winner {
+      border-color: rgba(249, 115, 22, 0.25);
+      background: var(--winner-dim);
+    }
+
+    .nomination-category {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    .nomination-talent {
+      margin-top: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .talent-entry {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .talent-entry a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .talent-entry a:hover { text-decoration: underline; }
+
+    .nomination-result {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+
+    .nomination-result.winner { color: var(--accent); }
+    .nomination-result.nominee { color: var(--text-muted); }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 80px;
+      padding: 20px 0 48px;
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      letter-spacing: 0.06em;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 500px) {
+      header { padding: 36px 0 32px; }
+      .detail-title { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="header-top">
+      <span class="logo" id="logo">goty</span>
+      <span class="header-explainer">Game award history lookup.</span>
+    </div>
+  </header>
+
+  <div id="search-view">
+    <div class="search-wrap">
+      <input id="search-input" type="text" placeholder="Type a game title to begin…" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="search-count" id="search-count"></div>
+    <div id="results">
+      <div class="state-message">type a game title to begin</div>
+    </div>
+  </div>
+
+  <div id="detail"></div>
+
+  <footer>
+    <span id="footer-left">goty</span>
+    <span id="footer-right"></span>
+  </footer>
+</div>
+
+<script>
+  let games = [];
+
+  fetch('awards.json')
+    .then(r => r.json())
+    .then(data => {
+      games = data.games;
+      document.getElementById('footer-right').textContent =
+        `${games.length.toLocaleString()} games · ${data.last_updated}`;
+      document.getElementById('search-count').textContent =
+        `${games.length.toLocaleString()} games`;
+      router();
+    })
+    .catch(() => {
+      document.getElementById('results').innerHTML =
+        `<div class="state-message">failed to load award data</div>`;
+    });
+
+  const searchInput = document.getElementById('search-input');
+  searchInput.addEventListener('input', updateResults);
+
+  function updateResults() {
+    const q = searchInput.value.trim();
+
+    if (!q) {
+      document.getElementById('results').innerHTML =
+        `<div class="state-message">type a game title to begin</div>`;
+      document.getElementById('search-count').textContent =
+        `${games.length.toLocaleString()} games`;
+      return;
+    }
+
+    const matches = search(q, 10);
+    document.getElementById('search-count').textContent = matches.length
+      ? `${matches.length} result${matches.length === 1 ? '' : 's'}`
+      : 'no results';
+    renderResults(matches, q);
+  }
+
+  function search(query, limit) {
+    const q = query.toLowerCase();
+    return games
+      .filter(g => g.title && g.title.toLowerCase().includes(q))
+      .slice(0, limit);
+  }
+
+  function countWinsAndNoms(game) {
+    let wins = 0, noms = 0;
+    for (const n of game.nominations) {
+      if (n.result === 'Winner') wins++;
+      else noms++;
+    }
+    return { wins, noms };
+  }
+
+  function uniqueEvents(game) {
+    return new Set(game.nominations.map(n => n.event)).size;
+  }
+
+  function renderResults(matches, query) {
+    const el = document.getElementById('results');
+    if (!matches.length) {
+      el.innerHTML = `<div class="state-message">no results for "${esc(query)}"</div>`;
+      el.classList.remove('fade-in');
+      return;
+    }
+
+    el.innerHTML = matches.map(g => {
+      const { wins, noms } = countWinsAndNoms(g);
+      const total = wins + noms;
+      const events = uniqueEvents(g);
+      return `
+        <div class="result-item" onclick="navigateTo('game',${g.igdb_id})">
+          <div style="min-width:0">
+            <div class="result-title">${esc(g.title)}</div>
+            <div class="result-meta">${total} nomination${total === 1 ? '' : 's'} across ${events} event${events === 1 ? '' : 's'}</div>
+          </div>
+          <div class="result-right">
+            ${wins ? `<div class="result-wins">${wins} win${wins === 1 ? '' : 's'}</div>` : ''}
+            <div class="result-noms">${noms} nom${noms === 1 ? '' : 's'}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    el.classList.remove('fade-in');
+    void el.offsetWidth;
+    el.classList.add('fade-in');
+  }
+
+  function renderDetail(igdb_id) {
+    const game = games.find(g => g.igdb_id === igdb_id);
+    if (!game) return showSearch();
+
+    document.title = `${game.title} — goty`;
+
+    const { wins, noms } = countWinsAndNoms(game);
+
+    // Group nominations by event + year
+    const groups = {};
+    for (const nom of game.nominations) {
+      const key = `${nom.year}__${nom.event}`;
+      if (!groups[key]) groups[key] = { event: nom.event, year: nom.year, nominations: [] };
+      groups[key].nominations.push(nom);
+    }
+
+    // Sort groups by year desc, then event name
+    const sortedGroups = Object.values(groups).sort((a, b) =>
+      b.year - a.year || a.event.localeCompare(b.event)
+    );
+
+    const groupsHtml = sortedGroups.map(group => {
+      const groupWins = group.nominations.filter(n => n.result === 'Winner').length;
+
+      // Winners first, then nominees
+      const sorted = [...group.nominations].sort((a, b) => {
+        if (a.result === 'Winner' && b.result !== 'Winner') return -1;
+        if (a.result !== 'Winner' && b.result === 'Winner') return 1;
+        return a.category.localeCompare(b.category);
+      });
+
+      const nomsHtml = sorted.map(nom => {
+        const isWinner = nom.result === 'Winner';
+        const talentHtml = (nom.talent || []).map(t => `
+          <div class="talent-entry">
+            ${t.imdb_url
+              ? `<a href="${esc(t.imdb_url)}" target="_blank" rel="noopener">${esc(t.name)}</a>`
+              : esc(t.name)
+            }${t.credit ? ` · ${esc(t.credit)}` : ''}
+          </div>
+        `).join('');
+
+        return `
+          <div class="nomination-row ${isWinner ? 'is-winner' : ''}">
+            <div>
+              <div class="nomination-category">${esc(nom.category)}</div>
+              ${talentHtml ? `<div class="nomination-talent">${talentHtml}</div>` : ''}
+            </div>
+            <div class="nomination-result ${isWinner ? 'winner' : 'nominee'}">
+              ${isWinner ? 'Winner' : 'Nominee'}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      return `
+        <div class="event-group">
+          <div class="event-heading">
+            <span>${esc(group.event)} ${group.year}</span>
+            ${groupWins ? `<span class="event-heading-wins">${groupWins} win${groupWins === 1 ? '' : 's'}</span>` : ''}
+          </div>
+          ${nomsHtml}
+        </div>
+      `;
+    }).join('');
+
+    document.getElementById('detail').innerHTML = `
+      <button class="back-btn" onclick="navigateTo('search')">← back to search</button>
+      <div class="detail-header">
+        <div class="detail-title">${esc(game.title)}</div>
+        <div class="detail-badges">
+          ${wins ? `<span class="badge badge-accent">${wins} win${wins === 1 ? '' : 's'}</span>` : ''}
+          <span class="badge">${wins + noms} nomination${wins + noms === 1 ? '' : 's'}</span>
+        </div>
+      </div>
+      ${groupsHtml}
+    `;
+
+    showDetail();
+  }
+
+  function showSearch() {
+    document.getElementById('search-view').style.display = '';
+    document.getElementById('detail').style.display = 'none';
+    document.title = 'goty';
+    searchInput.value = '';
+    document.getElementById('results').innerHTML =
+      `<div class="state-message">type a game title to begin</div>`;
+    document.getElementById('search-count').textContent =
+      `${games.length.toLocaleString()} games`;
+  }
+
+  function showDetail() {
+    document.getElementById('search-view').style.display = 'none';
+    document.getElementById('detail').style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+
+  function navigateTo(view, id) {
+    window.location.hash = view === 'search' ? '' : `/game/${id}`;
+  }
+
+  function router() {
+    const match = window.location.hash.match(/^#\/game\/(\d+)$/);
+    match ? renderDetail(parseInt(match[1])) : showSearch();
+  }
+
+  window.addEventListener('hashchange', router);
+  document.getElementById('logo').addEventListener('click', () => navigateTo('search'));
+
+  function esc(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+</script>
+</body>
+</html>
