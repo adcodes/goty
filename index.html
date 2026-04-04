@@ -4,6 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GOTY</title>
+  <meta name="description" content="Look up video game award history across BAFTA, The Game Awards, and more." />
+  <meta property="og:title" content="GOTY" />
+  <meta property="og:description" content="Look up video game award history across BAFTA, The Game Awards, and more." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="GOTY" />
+  <meta name="twitter:description" content="Look up video game award history across BAFTA, The Game Awards, and more." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -315,15 +322,6 @@
     }
 
     /* ── Award history ── */
-    .awards-heading {
-      font-family: var(--font-mono);
-      font-size: 0.68rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: var(--text-muted);
-      margin-bottom: 16px;
-    }
-
     .event-group {
       margin-bottom: 36px;
     }
@@ -437,7 +435,7 @@
     </div>
     <div class="search-count" id="search-count"></div>
     <div id="results">
-      <div class="state-message">type a game title to begin</div>
+      <div class="state-message">loading…</div>
     </div>
   </div>
 
@@ -556,7 +554,6 @@
     const { wins, noms } = countWinsAndNoms(game);
     const info = gameDetails[String(igdb_id)] || {};
 
-    // Build meta rows from IGDB data
     const metaRows = [
       ['Released',  info.release_date ? info.release_date.slice(0, 4) : null],
       ['Developer', (info.developers || []).length ? info.developers.join(', ') : null],
@@ -576,7 +573,6 @@
       ${info.summary ? `<div class="game-summary">${esc(info.summary)}</div>` : ''}
     ` : '';
 
-    // Group nominations by year + event
     const groups = {};
     for (const nom of game.nominations) {
       const key = `${nom.year}__${nom.event}`;

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "games": [
     {
       "igdb_id": 141114,
@@ -1750,7 +1750,7 @@
             },
             {
               "name": "Helen Goalen",
-              "credit": null,
+              "credit": "The Furies (voice)",
               "imdb_url": "https://www.imdb.com/name/nm10252576/"
             }
           ]
